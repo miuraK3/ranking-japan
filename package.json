@@ -19,6 +19,7 @@
   },
   "homepage": "https://miuraK3.github.io/ranking-japan",
   "dependencies": {
+    "bulma": "^0.9.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
