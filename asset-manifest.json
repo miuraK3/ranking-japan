@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/ranking-japan/static/js/main.4fb4971f.chunk.js",
+    "main.js.map": "/ranking-japan/static/js/main.4fb4971f.chunk.js.map",
+    "runtime-main.js": "/ranking-japan/static/js/runtime-main.60afb15f.js",
+    "runtime-main.js.map": "/ranking-japan/static/js/runtime-main.60afb15f.js.map",
+    "static/css/2.1f785abf.chunk.css": "/ranking-japan/static/css/2.1f785abf.chunk.css",
+    "static/js/2.1b8da0fd.chunk.js": "/ranking-japan/static/js/2.1b8da0fd.chunk.js",
+    "static/js/2.1b8da0fd.chunk.js.map": "/ranking-japan/static/js/2.1b8da0fd.chunk.js.map",
+    "index.html": "/ranking-japan/index.html",
+    "static/css/2.1f785abf.chunk.css.map": "/ranking-japan/static/css/2.1f785abf.chunk.css.map",
+    "static/js/2.1b8da0fd.chunk.js.LICENSE.txt": "/ranking-japan/static/js/2.1b8da0fd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60afb15f.js",
+    "static/css/2.1f785abf.chunk.css",
+    "static/js/2.1b8da0fd.chunk.js",
+    "static/js/main.4fb4971f.chunk.js"
+  ]
+}
