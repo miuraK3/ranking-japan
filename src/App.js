@@ -4,7 +4,7 @@ import * as topojson from "topojson";
 import { areaRadial } from "d3";
 
 import RankingData from "./data.json"
-//onst rData = RankingData;
+const rData = RankingData;
 //console.log(rData);
 
 const Hero = () => {
@@ -120,7 +120,7 @@ const ChoroplethMap = ({ features }) => {
             return <circle cx={x} cy={y} r={radius} fill="red" opacity="0.5"/>;
           })}
         </g>
-      {/*〜印（米のみの場合）*/}
+        {/*〜印（米のみの場合）*/}
     </svg>
   );
 };
@@ -141,94 +141,60 @@ export const ChoroplethMapPage = () => {
 };
 //〜日本地図を描くプログラム
 
-
 //地域資源についてのプログラム
 const AboutLocalResources = () => {
-  //const rData = RankingData;
-
+  const checkrist = ["火力","水力","風力","原子力","太陽光","地熱","米","牛乳","肉用牛","豚","鶏卵","プロイラー","トマト","乳牛","いちご"];
   const [val, setVal] = React.useState([]);
-  const handleChange = e => {
-    //ONかOFFか
-    if (val.includes(e.target.value)) {
-      // すでに含まれていればOFFしたと判断し、イベント発行元を除いた配列をsetし直す
+  const handleChange = e => {    //ONかOFFか
+    if (val.includes(e.target.value)) { // すでに含まれていればOFFしたと判断し、イベント発行元を除いた配列をsetし直す (チェックなし)
       setVal(val.filter(item => item !== e.target.value));
-    } else {
-      // そうでなければONと判断し、イベント発行元を末尾に加えた配列をsetし直す
-      setVal([...val, e.target.value]);
-      // stateは直接は編集できない( = val.push(e.target.value) はNG)
+    } else { // そうでなければONと判断し、イベント発行元を末尾に加えた配列をsetし直す (チェックあり)
+      setVal([...val, e.target.value]); // stateは直接は編集できない( = val.push(e.target.value) はNG)
     }
   };
+  console.log(val);
+
+  {/*考え中！！
+  let ranking = [];
+  let r = [];
+  r.push(rData.map((item) => {
+    //console.log(item[e.target.value]);
+    return item[e.target.value];
+  }));
+  console.log('チェックしたもののみ');
+  console.log(r);
   
-  const drawGraph = (e) => {
-    //日本地図を書くプログラム
-  }
+  ranking.push(r);
+  console.log('チェックしたもを配列に');
+  console.log(ranking);
+  //考え中！！
+  */}
+
   return ( 
     <div className="tile is-parent is-vertical">
       <article className="tile is-child notification is-grey has-text-centered">
         <div>
         <form onreset = "reset">
-        <label>
-          <input type="checkbox" value="火力" onChange={handleChange} checked={val.includes('火力')}/>
-          火力
-        </label>
-        <label>
-          <input type="checkbox" value="水力" onChange={handleChange} checked={val.includes('水力')} />
-          水力
-        </label>
-        <label>
-          <input type="checkbox" value="風力" onChange={handleChange} checked={val.includes('風力')} />
-          風力
-        </label>
-        <label>
-          <input type="checkbox" value="原子力" onChange={handleChange} checked={val.includes('原子力')} />
-          原子力
-        </label>
-        <label>
-          <input type="checkbox" value="太陽光" onChange={handleChange} checked={val.includes('太陽光')} />
-          太陽光
-        </label>
-        <label>
-          <input type="checkbox" value="地熱" onChange={handleChange} checked={val.includes('地熱')} />
-          地熱
-        </label>
+        {checkrist.map((item,i) => {
+          if(i === 5){
+            return (
+              <label>
+                <input type="checkbox" value={item} onChange={handleChange} checked={val.includes(item)}/>
+                {item}
+                <br />
+              </label>
+            );
+          }else{
+            return (
+              <label>
+                <input type="checkbox" value={item} onChange={handleChange} checked={val.includes(item)}/>
+                {item}
+              </label>
+            );
+          }
+        })}
         <br/>
-        <label>
-          <input type="checkbox" value="米" onChange={handleChange} checked={val.includes('米')} />
-          米
-        </label>
-        <label>
-          <input type="checkbox" value="牛乳" onChange={handleChange} checked={val.includes('牛乳')} />
-          牛乳
-        </label>
-        <label>
-          <input type="checkbox" value="肉用牛" onChange={handleChange} checked={val.includes('肉用牛')} />
-          肉用牛
-        </label>
-        <label>
-          <input type="checkbox" value="豚" onChange={handleChange} checked={val.includes('豚')} />
-          豚
-        </label>
-        <label>
-          <input type="checkbox" value="鶏卵" onChange={handleChange} checked={val.includes('鶏卵')} />
-          鶏卵
-        </label>
-        <label>
-          <input type="checkbox" value="プロイラー" onChange={handleChange} checked={val.includes('プロイラー')} />
-          プロイラー
-        </label>
-        <label>
-          <input type="checkbox" value="トマト" onChange={handleChange} checked={val.includes('トマト')} />
-          トマト
-        </label>
-        <label>
-          <input type="checkbox" value="乳牛" onChange={handleChange} checked={val.includes('乳牛')} />
-          乳牛
-        </label>
-        <label>
-          <input type="checkbox" value="いちご" onChange={handleChange} checked={val.includes('いちご')} />
-          いちご
-        </label>
-      <p>選択値：{val.join(', ')}</p>
+        <button type = "reset">描画</button>
         </form>
         </div>
         <ChoroplethMapPage /> 
@@ -239,48 +205,45 @@ const AboutLocalResources = () => {
 
 //認知度についてのプログラム
 const AboutAwareness = () => {
-  const data = []
-  var flag = [0, 0, 0, 0, 0, 0, 0, 0]
-  const add = (event) => {
-    if(flag[event.target.value - 1] === 0){
-      //data変数にデータを代入（初期化？）
+  const ranking = [];
+  const checkrist = ["Youtube登録者数","Youtube最高再生数","Twitterフォロワー数","Twitterツイート数","Twitter開始年月","全国国内線乗降客数","外国人訪問率","芸能人"];
 
-    }else{
-      data.map((item, i) => {
-        //チェックした内容と一致するデータのみを取得
-      })
+  const [val, setVal] = React.useState([]);
+  const handleChange = e => {    //ONかOFFか
+    if (val.includes(e.target.value)) { // すでに含まれていればOFFしたと判断し、イベント発行元を除いた配列をsetし直す
+      setVal(val.filter(item => item !== e.target.value));
+    } else { // そうでなければONと判断し、イベント発行元を末尾に加えた配列をsetし直す (チェックあり)
+      setVal([...val, e.target.value]); // stateは直接は編集できない( = val.push(e.target.value) はNG)
+
     }
-    //flag[event.target.value - 1] = 1
-  }
-  const drawGraph = (e) => {
-    //日本地図を書くプログラム
-  }
-  return (
+  };
+  console.log(val);
+
+  return ( 
     <div className="tile is-parent is-vertical">
       <article className="tile is-child notification is-grey has-text-centered">
         <div>
         <form onreset = "reset">
-              <input type = "checkbox" value = "1" id="Youtube登録者数" onClick = {add} />
-              Youtube登録者数
-              <input type = "checkbox" value = "2" id="Youtube最高再生数" onClick = {add} />
-              Youtube最高再生数
-              <br/>
-              <input type = "checkbox" value = "3" id="Twitterフォロワー数" onClick = {add} />
-              Twitterフォロワー数
-              <input type = "checkbox" value = "4" id="Twitterツイート数" onClick = {add} />
-              Twitterツイート数
-              <input type = "checkbox" value = "5" id="Twitter開始年月" onClick = {add} />
-              Twitter開始年月
-              <br/>
-              <input type = "checkbox" value = "6" id="全国国内線乗降客数" onClick = {add} />
-              全国国内線乗降客数
-              <input type = "checkbox" value = "7" id="外国人訪問率" onClick = {add} />
-              外国人訪問率
-              <input type = "checkbox" value = "8" id="芸能人" onClick = {add} />
-              芸能人
-              <br/>
-            <button type = "reset">描画</button>
-            {/*onClick = {drawGraph} を追加*/}
+        {checkrist.map((item,i) => {
+          if(i === 4){
+            return (
+              <label>
+                <input type="checkbox" value={item} onChange={handleChange} checked={val.includes(item)}/>
+                {item}
+                <br />
+              </label>
+            );
+          }else{
+            return (
+              <label>
+                <input type="checkbox" value={item} onChange={handleChange} checked={val.includes(item)}/>
+                {item}
+              </label>
+            );
+          }
+        })}
+        <br/>
+        <button type = "reset">描画</button>
         </form>
         </div>
         <ChoroplethMapPage /> 
@@ -292,52 +255,48 @@ const AboutAwareness = () => {
 //総合点についてのプログラム
 const AboutTotal = () => {
   const data = []
-  var flag = [0, 0, 0, 0, 0, 0, 0, 0]
-  const add = (event) => {
-    if(flag[event.target.value - 1] === 0){
-      //data変数にデータを代入（初期化？）
+  const checkrist = ["火力","水力","風力","原子力","太陽光","地熱","米","牛乳","肉用牛","豚","鶏卵","プロイラー","トマト","乳牛","いちご","Youtube登録者数","Youtube最高再生数","Twitterフォロワー数","Twitterツイート数","Twitter開始年月","全国国内線乗降客数","外国人訪問率","芸能人"];
 
-    }else{
-      data.map((item, i) => {
-        //チェックした内容と一致するデータのみを取得
-      })
+  const [val, setVal] = React.useState([]);
+  const handleChange = e => {    //ONかOFFか
+    if (val.includes(e.target.value)) { // すでに含まれていればOFFしたと判断し、イベント発行元を除いた配列をsetし直す
+      setVal(val.filter(item => item !== e.target.value));
+    } else { // そうでなければONと判断し、イベント発行元を末尾に加えた配列をsetし直す (チェックあり)
+      setVal([...val, e.target.value]); // stateは直接は編集できない( = val.push(e.target.value) はNG)
     }
-    //flag[event.target.value - 1] = 1
-  }
-  const drawGraph = (e) => {
-    //日本地図を書くプログラム
-  }
-  return (
-      <div className="tile is-parent is-vertical">
-        <article className="tile is-child notification is-grey has-text-centered">
-          <div>
-          <form onreset = "reset">
-              <input type = "checkbox" value = "1" id="Youtube登録者数" onClick = {add} />
-              Youtube登録者数
-              <input type = "checkbox" value = "2" id="Youtube最高再生数" onClick = {add} />
-              Youtube最高再生数
-              <br/>
-              <input type = "checkbox" value = "3" id="Twitterフォロワー数" onClick = {add} />
-              Twitterフォロワー数
-              <input type = "checkbox" value = "4" id="Twitterツイート数" onClick = {add} />
-              Twitterツイート数
-              <input type = "checkbox" value = "5" id="Twitter開始年月" onClick = {add} />
-              Twitter開始年月
-              <br/>
-              <input type = "checkbox" value = "6" id="全国国内線乗降客数" onClick = {add} />
-              全国国内線乗降客数
-              <input type = "checkbox" value = "7" id="外国人訪問率" onClick = {add} />
-              外国人訪問率
-              <input type = "checkbox" value = "8" id="芸能人" onClick = {add} />
-              芸能人など
-              <br/>
-            <button type = "reset">描画</button>
-            {/*onClick = {drawGraph} を追加*/}
-          </form>
-          </div>
-          <ChoroplethMapPage /> 
-        </article>
-      </div>  
+  };
+  console.log(val);
+
+  return ( 
+    <div className="tile is-parent is-vertical">
+      <article className="tile is-child notification is-grey has-text-centered">
+        <div>
+        <form onreset = "reset">
+        {checkrist.map((item,i) => {
+          if(i === 5 || i === 14 || i === 19){
+            return (
+              <label>
+                <input type="checkbox" value={item} onChange={handleChange} checked={val.includes(item)}/>
+                {item}
+                <br />
+              </label>
+            );
+          }else{
+            return (
+              <label>
+                <input type="checkbox" value={item} onChange={handleChange} checked={val.includes(item)}/>
+                {item}
+              </label>
+            );
+          }
+        })}
+        <br/>
+        <button type = "reset">描画</button>
+        </form>
+        </div>
+        <ChoroplethMapPage /> 
+      </article>
+    </div>
   );
 }
 
@@ -444,6 +403,68 @@ const r = rice.sort((a,b) => (b.米) - (a.米));
 いちご
 <br/>
 <button type = "reset">描画</button> //onClick = {drawGraph} を追加する？
+
+  <label>
+    <input type="checkbox" value="火力" onChange={handleChange} checked={val.includes('火力')}/>
+    火力
+  </label>
+  <label>
+    <input type="checkbox" value="水力" onChange={handleChange} checked={val.includes('水力')} />
+    水力
+  </label>
+  <label>
+    <input type="checkbox" value="風力" onChange={handleChange} checked={val.includes('風力')} />
+    風力
+  </label>
+  <label>
+    <input type="checkbox" value="原子力" onChange={handleChange} checked={val.includes('原子力')} />
+    原子力
+  </label>
+  <label>
+    <input type="checkbox" value="太陽光" onChange={handleChange} checked={val.includes('太陽光')} />
+    太陽光
+  </label>
+  <label>
+    <input type="checkbox" value="地熱" onChange={handleChange} checked={val.includes('地熱')} />
+    地熱
+  </label>
+  <br/>
+  <label>
+    <input type="checkbox" value="米" onChange={handleChange} checked={val.includes('米')} />
+    米
+  </label>
+  <label>
+    <input type="checkbox" value="牛乳" onChange={handleChange} checked={val.includes('牛乳')} />
+    牛乳
+  </label>
+  <label>
+    <input type="checkbox" value="肉用牛" onChange={handleChange} checked={val.includes('肉用牛')} />
+    肉用牛
+  </label>
+  <label>
+    <input type="checkbox" value="豚" onChange={handleChange} checked={val.includes('豚')} />
+    豚
+  </label>
+  <label>
+    <input type="checkbox" value="鶏卵" onChange={handleChange} checked={val.includes('鶏卵')} />
+    鶏卵
+  </label>
+  <label>
+    <input type="checkbox" value="プロイラー" onChange={handleChange} checked={val.includes('プロイラー')} />
+    プロイラー
+  </label>
+  <label>
+    <input type="checkbox" value="トマト" onChange={handleChange} checked={val.includes('トマト')} />
+    トマト
+  </label>
+  <label>
+    <input type="checkbox" value="乳牛" onChange={handleChange} checked={val.includes('乳牛')} />
+    乳牛
+  </label>
+  <label>
+    <input type="checkbox" value="いちご" onChange={handleChange} checked={val.includes('いちご')} />
+    いちご
+  </label>
 */
   
 export default App;
