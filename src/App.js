@@ -35,7 +35,7 @@ const AboutData = () => {
       <section className="section">
         <div className="container has-text-centered">
           <h1 className="title">移動先</h1>
-          <h2 className="subtitle"></h2>完成版は<a href="https://react-jpranking.netlify.app/">こちらのページ</a>になります！
+          <h2 className="subtitle"></h2>このページは未完成です。完成版は<a href="https://react-jpranking.netlify.app/">こちらのページ</a>になります！
         </div>
       </section>
     );
