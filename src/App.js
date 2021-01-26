@@ -34,8 +34,8 @@ const AboutData = () => {
     return (
       <section className="section">
         <div className="container has-text-centered">
-          <h1 className="title">データ元</h1>
-          <h2 className="subtitle">参考データについて...</h2>
+          <h1 className="title">移動先</h1>
+          <h2 className="subtitle"></h2>完成版は<a href="https://react-jpranking.netlify.app/">こちらのページ</a>になります！
         </div>
       </section>
     );
@@ -300,34 +300,21 @@ const AboutTotal = () => {
   );
 }
 
-const BeforePressingButton = () => {
-  return (
-    <div className="tile is-parent is-vertical">
-        <article className="tile is-child notification is-grey has-text-centered">
-          <h1 className="title">ボタンを押してください。</h1>
-        </article>
-    </div>
-  );
-}
-
 const Button = (nowShowing) => {
   //console.log(nowShowing);
   if (nowShowing.value === 1) {
     return (<AboutTotal />);
   } else if (nowShowing.value === 2) {
     return (<AboutLocalResources />);
-  } else if (nowShowing.value === 3) {
+  } else {
     return (<AboutAwareness />);
-  }else{
-    return (<BeforePressingButton />);
   }
 };
 
 const App = () => {
-  const [nowShowing, setNowShowing] = useState(0);
+  const [nowShowing, setNowShowing] = useState(1);
     return (
       <div>
-        <body>
         <Hero />
         <section className="section">
             <div className="buttons is-centered">
@@ -339,7 +326,6 @@ const App = () => {
         </section>
         <AboutData />
         <Footer />
-        </body>
       </div>
     );
 };
@@ -368,103 +354,6 @@ const rice = rData.map((item) => {
 });
 //降順にソート 
 const r = rice.sort((a,b) => (b.米) - (a.米));
-
-
-<input type = "checkbox" value = "1" onChange = {handleChange} checked={val.includes('1')} />
-火力
-<input type = "checkbox" value = "2" onChange = {handleChange} checked={val.includes('1')} />
-水力
-<input type = "checkbox" value = "3" onChange = {handleChange} checked={val.includes('1')} />
-風力
-<input type = "checkbox" value = "4" onChange = {handleChange} checked={val.includes('1')} />
-原子力
-<input type = "checkbox" value = "5" onChange = {handleChange} checked={val.includes('1')} />
-太陽光
-<input type = "checkbox" value = "6" onChange = {handleChange} checked={val.includes('1')} />
-地熱
-<br/>
-<input type = "checkbox" value = "7" onChange = {handleChange} checked={val.includes('1')} />
-米
-<input type = "checkbox" value = "8" onChange = {handleChange} checked={val.includes('1')} />
-牛乳
-<input type = "checkbox" value = "9" onChange = {handleChange} checked={val.includes('1')} />
-肉用牛
-<input type = "checkbox" value = "10" onChange = {handleChange} checked={val.includes('1')} />
-豚
-<input type = "checkbox" value = "11" onChange = {handleChange} checked={val.includes('1')}/>
-鶏卵
-<input type = "checkbox" value = "12" onChange = {handleChange} checked={val.includes('1')} />
-プロイラー
-<input type = "checkbox" value = "13" onChange = {handleChange} checked={val.includes('1')} />
-トマト
-<input type = "checkbox" value = "14" onChange = {handleChange} checked={val.includes('1')} />
-乳牛
-<input type = "checkbox" value = "15" onChange = {handleChange} checked={val.includes('1')} />
-いちご
-<br/>
-<button type = "reset">描画</button> //onClick = {drawGraph} を追加する？
-
-  <label>
-    <input type="checkbox" value="火力" onChange={handleChange} checked={val.includes('火力')}/>
-    火力
-  </label>
-  <label>
-    <input type="checkbox" value="水力" onChange={handleChange} checked={val.includes('水力')} />
-    水力
-  </label>
-  <label>
-    <input type="checkbox" value="風力" onChange={handleChange} checked={val.includes('風力')} />
-    風力
-  </label>
-  <label>
-    <input type="checkbox" value="原子力" onChange={handleChange} checked={val.includes('原子力')} />
-    原子力
-  </label>
-  <label>
-    <input type="checkbox" value="太陽光" onChange={handleChange} checked={val.includes('太陽光')} />
-    太陽光
-  </label>
-  <label>
-    <input type="checkbox" value="地熱" onChange={handleChange} checked={val.includes('地熱')} />
-    地熱
-  </label>
-  <br/>
-  <label>
-    <input type="checkbox" value="米" onChange={handleChange} checked={val.includes('米')} />
-    米
-  </label>
-  <label>
-    <input type="checkbox" value="牛乳" onChange={handleChange} checked={val.includes('牛乳')} />
-    牛乳
-  </label>
-  <label>
-    <input type="checkbox" value="肉用牛" onChange={handleChange} checked={val.includes('肉用牛')} />
-    肉用牛
-  </label>
-  <label>
-    <input type="checkbox" value="豚" onChange={handleChange} checked={val.includes('豚')} />
-    豚
-  </label>
-  <label>
-    <input type="checkbox" value="鶏卵" onChange={handleChange} checked={val.includes('鶏卵')} />
-    鶏卵
-  </label>
-  <label>
-    <input type="checkbox" value="プロイラー" onChange={handleChange} checked={val.includes('プロイラー')} />
-    プロイラー
-  </label>
-  <label>
-    <input type="checkbox" value="トマト" onChange={handleChange} checked={val.includes('トマト')} />
-    トマト
-  </label>
-  <label>
-    <input type="checkbox" value="乳牛" onChange={handleChange} checked={val.includes('乳牛')} />
-    乳牛
-  </label>
-  <label>
-    <input type="checkbox" value="いちご" onChange={handleChange} checked={val.includes('いちご')} />
-    いちご
-  </label>
 */
   
 export default App;
