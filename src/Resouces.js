@@ -111,42 +111,34 @@ const ChoroplethMap = ({ features }) => {
               ])[1];
 
               let r = 0;
-              let color = "red";
-
+              let color = "#ff0000";
               if (index == 0) {
                 r = radius - 5;
-                color = "red";
+                color = "#ff0000";
               } else if (index == 1) {
                 r = radius - 5;
-                color = "blue";
+                color = "#007fff";
               } else if (index == 2) {
                 r = radius - 5;
-                color = "yellow";
+                color = "#00ff00";
               } else if (index <= 10) {
                 r = radius - 10;
-                color = "black";
+                color = "#ffff00";
               } else if (index <= 20) {
                 r = radius - 15;
-                color = "black";
+                color = "#ff7f00";
               } else if (index <= 30) {
                 r = radius - 18;
                 color = "black";
               } else if (index <= 40) {
                 r = radius - 20;
-                color = "black";
+                color = "#7fff00";
               } else {
-                r = radius - 22;
-                color = "black";
+                r = radius - 20;
+                color = "#7f00ff";
               }
               return (
-                <circle
-                  cx={x}
-                  cy={y}
-                  r={r}
-                  fill={color}
-                  opacity="0.5"
-                  key={item["都道府県名"]}
-                />
+                <circle cx={x} cy={y} r={r} fill={color} opacity="0.5" key={item["都道府県名"]}/>
               );
             })}
         </g>
