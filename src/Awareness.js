@@ -1,20 +1,15 @@
 import React, { useEffect, useState } from "react";
 import * as d3 from "d3";
 import * as topojson from "topojson";
+import { AboutColorSizeAndMap } from "./colorsizemap";
 
 //日本地図を描くプログラム
 const ChoroplethMap = ({ features }) => {
-  const [data, setData] = useState([]);
-  const [selected, setSelected] = useState([]);
-
-  const dataUrl = `${process.env.PUBLIC_URL}/data/normalized_data.json`;
-
   const selections = ["Youtube登録者数","Youtube最高再生数","Twitterフォロワー数","Twitterツイート数","Twitter開始年月","国内線乗降客数","外国人訪問率","芸能人"];
-
+  
   const width = 900;
   const height = 900;
   const radius = 25;
-
   const projection = d3
     .geoMercator()
     .scale(1600)
@@ -26,15 +21,16 @@ const ChoroplethMap = ({ features }) => {
     .domain(d3.extent(features, (feature) => feature.properties.value))
     .range(["#ccc", "#0f0"]);
 
+  const [data, setData] = useState([]);
+  const [selected, setSelected] = useState([]);
+  const dataUrl = `${process.env.PUBLIC_URL}/data/normalized_data.json`;
   useEffect(() => {
     async function fetchData(dataUrl) {
       const res = await fetch(dataUrl);
       const json = await res.json();
       const data = json.data;
-
       setData(data);
     }
-
     fetchData(dataUrl);
   }, []);
 
@@ -51,137 +47,82 @@ const ChoroplethMap = ({ features }) => {
 
   return (
     <div className="box">
-        <form>
+      <form>
         <div className="field">
-        <div className="control">
-            {selections.map((selection) => {
-              return (
-                <label className="label" key={selection}>
-                  <input type="checkbox" value={selection}
-                    onChange={(e) =>
-                      setSelected((prev) => {
-                        if (e.target.checked) {
-                          return prev.concat(e.target.value);
-                        } else {
-                          return prev.filter((item) => item !== e.target.value);
-                        }
-                      })
-                    }
-                  />
-                  {selection}
-                </label>
-              );
+          <div className="control has-text-centered">
+            {selections.map((selection, i) => {
+              if (i === 4) {
+                return (
+                  <label>
+                    <input
+                      type="checkbox"
+                      value={selection}
+                      onChange={(e) =>
+                        setSelected((prev) => {
+                          if (e.target.checked) {
+                            return prev.concat(e.target.value);
+                          } else {
+                            return prev.filter(
+                              (item) => item !== e.target.value
+                            );
+                          }
+                        })
+                      }
+                    />
+                    {selection}
+                    <br />
+                  </label>
+                );
+              } else {
+                return (
+                  <label>
+                    <input
+                      type="checkbox"
+                      value={selection}
+                      onChange={(e) =>
+                        setSelected((prev) => {
+                          if (e.target.checked) {
+                            return prev.concat(e.target.value);
+                          } else {
+                            return prev.filter(
+                              (item) => item !== e.target.value
+                            );
+                          }
+                        })
+                      }
+                    />
+                    {selection}
+                  </label>
+                );
+              }
             })}
-        </div>
+          </div>
         </div>
       </form>
       <svg width={width} height={height}>
-        <g> 
-          {features.map((feature, i) => (
-            <path
-              key={i}
-              d={path(feature)}
-              fill="limegreen"
-              stroke="mediumseagreen"
-            />
-          ))}
+        <g>
+          {features.map((feature, i) => {
+            if (feature.properties.id === 1){
+                return <path key={i} d={path(feature)} fill="darkseagreen" stroke="#3C6754"/>
+            }else if (feature.properties.id <= 7){
+                return <path key={i} d={path(feature)} fill="seagreen" stroke="#3C6754"/>
+            }else if (feature.properties.id <= 14){
+                return <path key={i} d={path(feature)} fill="mediumseagreen" stroke="#3C6754"/>
+            }else if (feature.properties.id <= 23){
+                return <path key={i} d={path(feature)} fill="palegreen" stroke="#3C6754"/>
+            }else if (feature.properties.id <= 30){
+                return <path key={i} d={path(feature)} fill="yellowgreen" stroke="#3C6754"/>
+            }else if (feature.properties.id <= 35){
+                return <path key={i} d={path(feature)} fill="olivedrab" stroke="#3C6754"/>
+            }else if (feature.properties.id <= 39){
+                return <path key={i} d={path(feature)} fill="greenyellow" stroke="#3C6754"/>
+            }else{
+                return <path key={i} d={path(feature)} fill="forestgreen" stroke="#3C6754"/>
+            }
+          })}
         </g>
 
-        {/*印の大きさについて*/}
-        <g transform="translate(width/2,height)">
-          <text x={width - 250} y={height - 500} fontSize="20">
-            円の大きさ・色について
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 450}
-            r={radius - 5}
-            fill="red"
-            opacity="0.5"
-          />
-          <text x={width - 200 + radius} y={height - 443} fontSize="20">
-            1位
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 400}
-            r={radius - 5}
-            fill="blue"
-            opacity="0.5"
-          />
-          <text x={width - 200 + radius} y={height - 393} fontSize="20">
-            2位
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 350}
-            r={radius - 5}
-            fill="yellow"
-            opacity="0.5"
-          />
-          <text x={width - 200 + radius} y={height - 343} fontSize="20">
-            3位
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 300}
-            r={radius - 10}
-            fill="pink"
-            opacity="0.5"
-          />
-          <text x={width - 195 + radius - 10} y={height - 294} fontSize="20">
-            4~10位
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 250}
-            r={radius - 15}
-            fill="black"
-            opacity="0.5"
-          />
-          <text x={width - 195 + radius - 15} y={height - 243} fontSize="20">
-            11~20位
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 200}
-            r={radius - 18}
-            fill="black"
-            opacity="0.5"
-          />
-          <text x={width - 195 + radius - 18} y={height - 193} fontSize="20">
-            21~30位
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 150}
-            r={radius - 20}
-            fill="black"
-            opacity="0.5"
-          />
-          <text x={width - 195 + radius - 20} y={height - 143} fontSize="20">
-            31~40位
-          </text>
-
-          <circle
-            cx={width - 200}
-            cy={height - 100}
-            r={radius - 22}
-            fill="black"
-            opacity="0.5"
-          />
-          <text x={width - 195 + radius - 22} y={height - 93} fontSize="20">
-            41~47位
-          </text>
-        </g>
-        {/*〜印の大きさについて*/}
+        <AboutColorSizeAndMap />
 
         <g>
           {selected.length !== 0 &&
@@ -209,7 +150,7 @@ const ChoroplethMap = ({ features }) => {
                 color = "yellow";
               } else if (index <= 10) {
                 r = radius - 10;
-                color = "black";
+                color = "pink";
               } else if (index <= 20) {
                 r = radius - 15;
                 color = "black";

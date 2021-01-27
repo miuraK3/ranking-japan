@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { AboutAwareness } from "./Awareness";
 import { AboutLocalResources } from "./Resouces";
+import { AboutTotal } from "./Total";
 
 const Hero = () => {
     return (
@@ -66,7 +67,7 @@ const App = () => {
                     </Link>
                    </div>
                     <Route path="/" exact>
-                      {/*<AboutTotal />*/}
+                      <AboutTotal />
                     </Route>
                     <Route path="/local" exact>
                       <AboutLocalResources />

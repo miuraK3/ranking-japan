@@ -5,12 +5,11 @@ import { AboutColorSizeAndMap } from "./colorsizemap";
 
 //日本地図を描くプログラム
 const ChoroplethMap = ({ features }) => {
-  const selections = ["米","牛乳","肉用牛","豚","鶏卵","ブロイラー","トマト","乳牛","いちご","火力","水力","風力","原子力","太陽光","地熱"];
+  const selections = ["米","牛乳","肉用牛","豚","鶏卵","ブロイラー","トマト","乳牛","いちご","火力","水力","風力","原子力","太陽光","地熱","Youtube登録者数","Youtube最高再生数","Twitterフォロワー数","Twitterツイート数","Twitter開始年月","国内線乗降客数","外国人訪問率","芸能人"];
 
   const width = 900;
   const height = 900;
   const radius = 25;
-
   const projection = d3
     .geoMercator()
     .scale(1600)
@@ -30,10 +29,8 @@ const ChoroplethMap = ({ features }) => {
       const res = await fetch(dataUrl);
       const json = await res.json();
       const data = json.data;
-
       setData(data);
     }
-
     fetchData(dataUrl);
   }, []);
 
@@ -52,31 +49,56 @@ const ChoroplethMap = ({ features }) => {
     <div className="box">
       <form>
         <div className="field">
-          <div className="control">
-            {selections.map((selection) => {
-              return (
-                <label className="label" key={selection}>
-                  <input
-                    type="checkbox"
-                    value={selection}
-                    onChange={(e) =>
-                      setSelected((prev) => {
-                        if (e.target.checked) {
-                          return prev.concat(e.target.value);
-                        } else {
-                          return prev.filter((item) => item !== e.target.value);
-                        }
-                      })
-                    }
-                  />
-                  {selection}
-                </label>
-              );
+          <div className="control has-text-centered">
+            {selections.map((selection, i) => {
+              if (i === 8 || i === 14 || i === 19) {
+                return (
+                  <label>
+                    <input
+                      type="checkbox"
+                      value={selection}
+                      onChange={(e) =>
+                        setSelected((prev) => {
+                          if (e.target.checked) {
+                            return prev.concat(e.target.value);
+                          } else {
+                            return prev.filter(
+                              (item) => item !== e.target.value
+                            );
+                          }
+                        })
+                      }
+                    />
+                    {selection}
+                    <br />
+                  </label>
+                );
+              } else {
+                return (
+                  <label>
+                    <input
+                      type="checkbox"
+                      value={selection}
+                      onChange={(e) =>
+                        setSelected((prev) => {
+                          if (e.target.checked) {
+                            return prev.concat(e.target.value);
+                          } else {
+                            return prev.filter(
+                              (item) => item !== e.target.value
+                            );
+                          }
+                        })
+                      }
+                    />
+                    {selection}
+                  </label>
+                );
+              }
             })}
           </div>
         </div>
       </form>
-
       <svg width={width} height={height}>
         <g>
           {features.map((feature, i) => {
@@ -99,6 +121,7 @@ const ChoroplethMap = ({ features }) => {
             }
           })}
         </g>
+
         <AboutColorSizeAndMap />
 
         <g>
@@ -127,7 +150,7 @@ const ChoroplethMap = ({ features }) => {
                 color = "yellow";
               } else if (index <= 10) {
                 r = radius - 10;
-                color = "black";
+                color = "pink";
               } else if (index <= 20) {
                 r = radius - 15;
                 color = "black";
@@ -158,7 +181,7 @@ const ChoroplethMap = ({ features }) => {
   );
 };
 
-export const AboutLocalResources = () => {
+export const AboutTotal = () => {
   const [features, setFeatures] = useState(null);
   useEffect(() => {
     (async () => {
