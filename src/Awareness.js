@@ -3,7 +3,6 @@ import * as d3 from "d3";
 import * as topojson from "topojson";
 import { AboutColorSizeAndMap } from "./colorsizemap";
 
-//日本地図を描くプログラム
 const ChoroplethMap = ({ features }) => {
   const selections = ["Youtube登録者数","Youtube最高再生数","Twitterフォロワー数","Twitterツイート数","Twitter開始年月","国内線乗降客数","外国人訪問率","芸能人"];
   
@@ -16,11 +15,7 @@ const ChoroplethMap = ({ features }) => {
     .center([139.69167, 35.68944])
     .translate([width / 2, height / 2]);
   const path = d3.geoPath().projection(projection);
-  const color = d3
-    .scaleLinear()
-    .domain(d3.extent(features, (feature) => feature.properties.value))
-    .range(["#ccc", "#0f0"]);
-
+  //チェックしたデータのみを獲得
   const [data, setData] = useState([]);
   const [selected, setSelected] = useState([]);
   const dataUrl = `${process.env.PUBLIC_URL}/data/normalized_data.json`;
@@ -44,7 +39,7 @@ const ChoroplethMap = ({ features }) => {
       }),
     ]);
   }, [selected]);
-
+  //〜チェックしたデータのみを獲得
   return (
     <div className="box">
       <form>
@@ -100,30 +95,7 @@ const ChoroplethMap = ({ features }) => {
         </div>
       </form>
       <svg width={width} height={height}>
-        <g>
-          {features.map((feature, i) => {
-            if (feature.properties.id === 1){
-                return <path key={i} d={path(feature)} fill="darkseagreen" stroke="#3C6754"/>
-            }else if (feature.properties.id <= 7){
-                return <path key={i} d={path(feature)} fill="seagreen" stroke="#3C6754"/>
-            }else if (feature.properties.id <= 14){
-                return <path key={i} d={path(feature)} fill="mediumseagreen" stroke="#3C6754"/>
-            }else if (feature.properties.id <= 23){
-                return <path key={i} d={path(feature)} fill="palegreen" stroke="#3C6754"/>
-            }else if (feature.properties.id <= 30){
-                return <path key={i} d={path(feature)} fill="yellowgreen" stroke="#3C6754"/>
-            }else if (feature.properties.id <= 35){
-                return <path key={i} d={path(feature)} fill="olivedrab" stroke="#3C6754"/>
-            }else if (feature.properties.id <= 39){
-                return <path key={i} d={path(feature)} fill="greenyellow" stroke="#3C6754"/>
-            }else{
-                return <path key={i} d={path(feature)} fill="forestgreen" stroke="#3C6754"/>
-            }
-          })}
-        </g>
-
         <AboutColorSizeAndMap />
-
         <g>
           {selected.length !== 0 &&
             data.map((item, index) => {
@@ -182,17 +154,5 @@ const ChoroplethMap = ({ features }) => {
 };
 
 export const AboutAwareness = () => {
-  const [features, setFeatures] = useState(null);
-  useEffect(() => {
-    (async () => {
-      const res = await fetch(`${process.env.PUBLIC_URL}/data/japan.json`);
-      const data = await res.json();
-      const { features } = topojson.feature(data, data.objects.japan);
-      setFeatures(features);
-    })();
-  }, []);
-  if (features == null) {
-    return <p>loading</p>;
-  }
-  return <ChoroplethMap features={features} />;
+  return <ChoroplethMap />;
 };
