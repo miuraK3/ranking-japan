@@ -1,0 +1,2178 @@
+{
+    "data": [
+      {
+        "都道府県名": "北海道",
+        "米": { "value": 588100.0, "normalizedValue": 0.9101584464226797 },
+        "牛乳": { "value": 3965193.0, "normalizedValue": 1.0 },
+        "肉用牛": { "value": 196000.0, "normalizedValue": 0.6013779527559056 },
+        "豚": { "value": 691600.0, "normalizedValue": 0.5443749161583562 },
+        "鶏卵": { "value": 6691.0, "normalizedValue": 0.4298859512700881 },
+        "ブロイラー": { "value": 4920.0, "normalizedValue": 0.17424564385890354 },
+        "トマト": { "value": 61000.0, "normalizedValue": 0.4572713643178411 },
+        "乳牛": { "value": 328700.0, "normalizedValue": 1.0 },
+        "いちご": { "value": 1850.0, "normalizedValue": 0.07283464566929133 },
+        "火力": { "value": 32.0, "normalizedValue": 0.9142857142857143 },
+        "水力": { "value": 98.0, "normalizedValue": 0.5730994152046783 },
+        "風力": { "value": 56.0, "normalizedValue": 1.0 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 127.0, "normalizedValue": 0.5806451612903226 },
+        "地熱": { "value": 1.0, "normalizedValue": 0.16666666666666666 },
+        "国内線乗降客数": {
+          "value": 26730898.0,
+          "normalizedValue": 0.3977318056124247
+        },
+        "Youtube登録者数": {
+          "value": 17800.0,
+          "normalizedValue": 0.012027027027027027
+        },
+        "Youtube最高再生数": {
+          "value": 630000.0,
+          "normalizedValue": 0.04459549139244947
+        },
+        "Twitterフォロワー数": {
+          "value": 85000.0,
+          "normalizedValue": 0.07410636442894507
+        },
+        "Twitterツイート数": {
+          "value": 40000.0,
+          "normalizedValue": 0.6349206349206349
+        },
+        "Twitter開始年月": {
+          "value": 201203.0,
+          "normalizedValue": 0.9960347319855052
+        },
+        "外国人訪問率": {
+          "value": 3.080853215,
+          "normalizedValue": 0.17319399085608997
+        },
+        "芸能人": { "value": 10.0, "normalizedValue": 0.06993006993006994 },
+        "経度": 142.346800,
+        "緯度": 43.5
+      },
+      {
+        "都道府県名": "青森県",
+        "米": { "value": 282200.0, "normalizedValue": 0.43632170091746814 },
+        "牛乳": { "value": 68430.0, "normalizedValue": 0.015987079026068458 },
+        "肉用牛": { "value": 28900.0, "normalizedValue": 0.0874138779527559 },
+        "豚": { "value": 351800.0, "normalizedValue": 0.2762394754077663 },
+        "鶏卵": { "value": 7943.0, "normalizedValue": 0.5110160705028512 },
+        "ブロイラー": { "value": 6943.0, "normalizedValue": 0.24589176937243234 },
+        "トマト": { "value": 18100.0, "normalizedValue": 0.13568215892053972 },
+        "乳牛": { "value": 24700.0, "normalizedValue": 0.07480674417189116 },
+        "いちご": { "value": 1200.0, "normalizedValue": 0.047244094488188976 },
+        "火力": { "value": 10.0, "normalizedValue": 0.2857142857142857 },
+        "水力": { "value": 19.0, "normalizedValue": 0.1111111111111111 },
+        "風力": { "value": 24.0, "normalizedValue": 0.42857142857142855 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 35.0, "normalizedValue": 0.15668202764976957 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1487732.0,
+          "normalizedValue": 0.02213611883249803
+        },
+        "Youtube登録者数": {
+          "value": 6940.0,
+          "normalizedValue": 0.004689189189189189
+        },
+        "Youtube最高再生数": {
+          "value": 110000.0,
+          "normalizedValue": 0.007381233379271472
+        },
+        "Twitterフォロワー数": {
+          "value": 40000.0,
+          "normalizedValue": 0.03487358326068003
+        },
+        "Twitterツイート数": { "value": 63000.0, "normalizedValue": 1.0 },
+        "Twitter開始年月": {
+          "value": 200907.0,
+          "normalizedValue": 0.9945694144670403
+        },
+        "外国人訪問率": {
+          "value": 0.302849767,
+          "normalizedValue": 0.012384062722597919
+        },
+        "芸能人": { "value": 1.0, "normalizedValue": 0.006993006993006993 },
+        "経度": 140.74,
+        "緯度": 40.82444
+      },
+      {
+        "都道府県名": "岩手県",
+        "米": { "value": 279800.0, "normalizedValue": 0.43260411939013077 },
+        "牛乳": { "value": 214776.0, "normalizedValue": 0.05294245838397423 },
+        "肉用牛": { "value": 74100.0, "normalizedValue": 0.226439468503937 },
+        "豚": { "value": 402400.0, "normalizedValue": 0.3161678253253056 },
+        "鶏卵": { "value": 5706.0, "normalizedValue": 0.36605754276827374 },
+        "ブロイラー": { "value": 21647.0, "normalizedValue": 0.7666454171979034 },
+        "トマト": { "value": 9610.0, "normalizedValue": 0.07203898050974512 },
+        "乳牛": { "value": 17100.0, "normalizedValue": 0.051676912776188445 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 40.0, "normalizedValue": 0.23391812865497075 },
+        "風力": { "value": 5.0, "normalizedValue": 0.08928571428571429 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 27.0, "normalizedValue": 0.11981566820276497 },
+        "地熱": { "value": 2.0, "normalizedValue": 0.3333333333333333 },
+        "国内線乗降客数": {
+          "value": 470088.0,
+          "normalizedValue": 0.006994488140156515
+        },
+        "Youtube登録者数": {
+          "value": 30300.0,
+          "normalizedValue": 0.020472972972972972
+        },
+        "Youtube最高再生数": { "value": 13980000.0, "normalizedValue": 1.0 },
+        "Twitterフォロワー数": {
+          "value": 72000.0,
+          "normalizedValue": 0.06277244986922406
+        },
+        "Twitterツイート数": {
+          "value": 38000.0,
+          "normalizedValue": 0.6031746031746031
+        },
+        "Twitter開始年月": {
+          "value": 201004.0,
+          "normalizedValue": 0.9950496029781588
+        },
+        "外国人訪問率": {
+          "value": 0.166996146,
+          "normalizedValue": 0.004519921644798701
+        },
+        "芸能人": { "value": 2.0, "normalizedValue": 0.013986013986013986 },
+        "経度": 141.4,
+        "緯度": 39.70361
+      },
+      {
+        "都道府県名": "宮城県",
+        "米": { "value": 376900.0, "normalizedValue": 0.5830112720169893 },
+        "牛乳": { "value": 113325.0, "normalizedValue": 0.027323991249656256 },
+        "肉用牛": { "value": 71100.0, "normalizedValue": 0.2172121062992126 },
+        "豚": { "value": 186100.0, "normalizedValue": 0.14548596589519203 },
+        "鶏卵": { "value": 4519.0, "normalizedValue": 0.28913945049248313 },
+        "ブロイラー": { "value": 2166.0, "normalizedValue": 0.07671058223544411 },
+        "トマト": { "value": 9680.0, "normalizedValue": 0.07256371814092953 },
+        "乳牛": { "value": 9730.0, "normalizedValue": 0.02924706312009252 },
+        "いちご": { "value": 4610.0, "normalizedValue": 0.18149606299212598 },
+        "火力": { "value": 10.0, "normalizedValue": 0.2857142857142857 },
+        "水力": { "value": 22.0, "normalizedValue": 0.1286549707602339 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 75.0, "normalizedValue": 0.34101382488479265 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 3462275.0,
+          "normalizedValue": 0.05151554905775174
+        },
+        "Youtube登録者数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube最高再生数": {
+          "value": 96310.0,
+          "normalizedValue": 0.006401496471193767
+        },
+        "Twitterフォロワー数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitterツイート数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitter開始年月": { "value": 0.0, "normalizedValue": 0.0 },
+        "外国人訪問率": {
+          "value": 0.393117953,
+          "normalizedValue": 0.01760940559027916
+        },
+        "芸能人": { "value": 5.0, "normalizedValue": 0.03496503496503497 },
+        "経度": 140.9,
+        "緯度": 38.5
+      },
+      {
+        "都道府県名": "秋田県",
+        "米": { "value": 526800.0, "normalizedValue": 0.8152052182452706 },
+        "牛乳": { "value": 25434.0, "normalizedValue": 0.005129703417083473 },
+        "肉用牛": { "value": 17800.0, "normalizedValue": 0.05327263779527559 },
+        "豚": { "value": 272100.0, "normalizedValue": 0.21334837879851964 },
+        "鶏卵": { "value": 2326.0, "normalizedValue": 0.14703214100570244 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 8700.0, "normalizedValue": 0.06521739130434782 },
+        "乳牛": { "value": 1550.0, "normalizedValue": 0.0043520603810335385 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 4.0, "normalizedValue": 0.11428571428571428 },
+        "水力": { "value": 42.0, "normalizedValue": 0.24561403508771928 },
+        "風力": { "value": 24.0, "normalizedValue": 0.42857142857142855 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 24.0, "normalizedValue": 0.10599078341013825 },
+        "地熱": { "value": 3.0, "normalizedValue": 0.5 },
+        "国内線乗降客数": {
+          "value": 1528552.0,
+          "normalizedValue": 0.022743483849008105
+        },
+        "Youtube登録者数": {
+          "value": 9290.0,
+          "normalizedValue": 0.0062770270270270274
+        },
+        "Youtube最高再生数": {
+          "value": 420000.0,
+          "normalizedValue": 0.029566656425589127
+        },
+        "Twitterフォロワー数": {
+          "value": 25000.0,
+          "normalizedValue": 0.021795989537925022
+        },
+        "Twitterツイート数": {
+          "value": 11000.0,
+          "normalizedValue": 0.1746031746031746
+        },
+        "Twitter開始年月": {
+          "value": 201103.0,
+          "normalizedValue": 0.9955396922833212
+        },
+        "外国人訪問率": {
+          "value": 0.143526417,
+          "normalizedValue": 0.0031613324621539794
+        },
+        "芸能人": { "value": 1.0, "normalizedValue": 0.006993006993006993 },
+        "経度": 140.2,
+        "緯度": 39.7
+      },
+      {
+        "都道府県名": "山形県",
+        "米": { "value": 404400.0, "normalizedValue": 0.6256085603510636 },
+        "牛乳": { "value": 64273.0, "normalizedValue": 0.01493735090236973 },
+        "肉用牛": { "value": 38800.0, "normalizedValue": 0.11786417322834646 },
+        "豚": { "value": 154600.0, "normalizedValue": 0.12062938442478714 },
+        "鶏卵": { "value": 540.0, "normalizedValue": 0.031298600311041994 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 11300.0, "normalizedValue": 0.08470764617691154 },
+        "乳牛": { "value": 1390.0, "normalizedValue": 0.003865116562176639 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 42.0, "normalizedValue": 0.24561403508771928 },
+        "風力": { "value": 7.0, "normalizedValue": 0.125 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 9.0, "normalizedValue": 0.03686635944700461 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 775725.0,
+          "normalizedValue": 0.011542092783740306
+        },
+        "Youtube登録者数": {
+          "value": 3290.0,
+          "normalizedValue": 0.002222972972972973
+        },
+        "Youtube最高再生数": {
+          "value": 930000.0,
+          "normalizedValue": 0.0660652556308214
+        },
+        "Twitterフォロワー数": {
+          "value": 86000.0,
+          "normalizedValue": 0.07497820401046207
+        },
+        "Twitterツイート数": {
+          "value": 8728.0,
+          "normalizedValue": 0.13853968253968255
+        },
+        "Twitter開始年月": {
+          "value": 201103.0,
+          "normalizedValue": 0.9955396922833212
+        },
+        "外国人訪問率": {
+          "value": 0.162482736,
+          "normalizedValue": 0.004258654460893827
+        },
+        "芸能人": { "value": 1.0, "normalizedValue": 0.006993006993006993 },
+        "経度": 140.1,
+        "緯度": 38.5
+      },
+      {
+        "都道府県名": "福島県",
+        "米": { "value": 368500.0, "normalizedValue": 0.5699997366713084 },
+        "牛乳": { "value": 70476.0, "normalizedValue": 0.016503736168499924 },
+        "肉用牛": { "value": 39600.0, "normalizedValue": 0.1203248031496063 },
+        "豚": { "value": 124500.0, "normalizedValue": 0.09687753990862247 },
+        "鶏卵": { "value": 4551.0, "normalizedValue": 0.29121306376360806 },
+        "ブロイラー": { "value": 785.0, "normalizedValue": 0.027801388298625867 },
+        "トマト": { "value": 22400.0, "normalizedValue": 0.1679160419790105 },
+        "乳牛": { "value": 9750.0, "normalizedValue": 0.02930793109744963 },
+        "いちご": { "value": 2410.0, "normalizedValue": 0.09488188976377952 },
+        "火力": { "value": 12.0, "normalizedValue": 0.34285714285714286 },
+        "水力": { "value": 94.0, "normalizedValue": 0.5497076023391813 },
+        "風力": { "value": 4.0, "normalizedValue": 0.07142857142857142 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 107.0, "normalizedValue": 0.48847926267281105 },
+        "地熱": { "value": 1.0, "normalizedValue": 0.16666666666666666 },
+        "国内線乗降客数": {
+          "value": 255617.0,
+          "normalizedValue": 0.0038033518722502767
+        },
+        "Youtube登録者数": {
+          "value": 13000.0,
+          "normalizedValue": 0.008783783783783784
+        },
+        "Youtube最高再生数": {
+          "value": 2620000.0,
+          "normalizedValue": 0.18701159417364988
+        },
+        "Twitterフォロワー数": {
+          "value": 72000.0,
+          "normalizedValue": 0.06277244986922406
+        },
+        "Twitterツイート数": {
+          "value": 5487.0,
+          "normalizedValue": 0.0870952380952381
+        },
+        "Twitter開始年月": {
+          "value": 201004.0,
+          "normalizedValue": 0.9950496029781588
+        },
+        "外国人訪問率": {
+          "value": 0.10155171,
+          "normalizedValue": 0.0007315479991598988
+        },
+        "芸能人": { "value": 5.0, "normalizedValue": 0.03496503496503497 },
+        "経度": 140.2804,
+        "緯度": 37.45
+      },
+      {
+        "都道府県名": "茨城県",
+        "米": { "value": 344200.0, "normalizedValue": 0.5323592237070174 },
+        "牛乳": { "value": 168501.0, "normalizedValue": 0.041257067735872545 },
+        "肉用牛": { "value": 30600.0, "normalizedValue": 0.09264271653543307 },
+        "豚": { "value": 466400.0, "normalizedValue": 0.36667008609057267 },
+        "鶏卵": { "value": 15489.0, "normalizedValue": 1.0 },
+        "ブロイラー": { "value": 1135.0, "normalizedValue": 0.04019691174387307 },
+        "トマト": { "value": 43400.0, "normalizedValue": 0.32533733133433285 },
+        "乳牛": { "value": 19600.0, "normalizedValue": 0.0592854099458275 },
+        "いちご": { "value": 9240.0, "normalizedValue": 0.3637795275590551 },
+        "火力": { "value": 16.0, "normalizedValue": 0.45714285714285713 },
+        "水力": { "value": 6.0, "normalizedValue": 0.03508771929824561 },
+        "風力": { "value": 7.0, "normalizedValue": 0.125 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 218.0, "normalizedValue": 1.0 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 653265.0,
+          "normalizedValue": 0.009719997734210076
+        },
+        "Youtube登録者数": {
+          "value": 140000.0,
+          "normalizedValue": 0.0945945945945946
+        },
+        "Youtube最高再生数": {
+          "value": 1190000.0,
+          "normalizedValue": 0.08467238463741039
+        },
+        "Twitterフォロワー数": {
+          "value": 158000.0,
+          "normalizedValue": 0.13775065387968613
+        },
+        "Twitterツイート数": {
+          "value": 39000.0,
+          "normalizedValue": 0.6190476190476191
+        },
+        "Twitter開始年月": {
+          "value": 201006.0,
+          "normalizedValue": 0.9950595037722025
+        },
+        "外国人訪問率": {
+          "value": 0.183244419,
+          "normalizedValue": 0.005460483333195625
+        },
+        "芸能人": { "value": 12.0, "normalizedValue": 0.08391608391608392 },
+        "経度": 140.2648,
+        "緯度": 36.2029
+      },
+      {
+        "都道府県名": "栃木県",
+        "米": { "value": 311400.0, "normalizedValue": 0.48155227616673973 },
+        "牛乳": { "value": 330600.0, "normalizedValue": 0.08219040406578364 },
+        "肉用牛": { "value": 42200.0, "normalizedValue": 0.12832185039370078 },
+        "豚": { "value": 406000.0, "normalizedValue": 0.3190085774933519 },
+        "鶏卵": { "value": 6211.0, "normalizedValue": 0.3987817522032141 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 34800.0, "normalizedValue": 0.2608695652173913 },
+        "乳牛": { "value": 37600.0, "normalizedValue": 0.11406658956722868 },
+        "いちご": { "value": 25400.0, "normalizedValue": 1.0 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 33.0, "normalizedValue": 0.19298245614035087 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 92.0, "normalizedValue": 0.41935483870967744 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 3650.0,
+          "normalizedValue": 0.002466216216216216
+        },
+        "Youtube最高再生数": {
+          "value": 1870000.0,
+          "normalizedValue": 0.1333371835777201
+        },
+        "Twitterフォロワー数": {
+          "value": 7855.0,
+          "normalizedValue": 0.006848299912816042
+        },
+        "Twitterツイート数": {
+          "value": 21000.0,
+          "normalizedValue": 0.3333333333333333
+        },
+        "Twitter開始年月": {
+          "value": 201301.0,
+          "normalizedValue": 0.9965198708936457
+        },
+        "外国人訪問率": {
+          "value": 0.442765456,
+          "normalizedValue": 0.02048334420802465
+        },
+        "芸能人": { "value": 19.0, "normalizedValue": 0.13286713286713286 },
+        "経度": 139.8,
+        "緯度": 36.7
+      },
+      {
+        "都道府県名": "群馬県",
+        "米": { "value": 75300.0, "normalizedValue": 0.11583519341492392 },
+        "牛乳": { "value": 216330.0, "normalizedValue": 0.05333487539244857 },
+        "肉用牛": { "value": 30300.0, "normalizedValue": 0.09171998031496063 },
+        "豚": { "value": 629600.0, "normalizedValue": 0.4954508510420037 },
+        "鶏卵": { "value": 8241.0, "normalizedValue": 0.5303265940902022 },
+        "ブロイラー": { "value": 1460.0, "normalizedValue": 0.0517070406573169 },
+        "トマト": { "value": 24100.0, "normalizedValue": 0.18065967016491755 },
+        "乳牛": { "value": 24500.0, "normalizedValue": 0.07419806439832004 },
+        "いちご": { "value": 2910.0, "normalizedValue": 0.11456692913385827 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 74.0, "normalizedValue": 0.4327485380116959 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 67.0, "normalizedValue": 0.30414746543778803 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 122263.0,
+          "normalizedValue": 0.08261013513513514
+        },
+        "Youtube最高再生数": {
+          "value": 18100.0,
+          "normalizedValue": 0.0008043289342502068
+        },
+        "Twitterフォロワー数": {
+          "value": 38000.0,
+          "normalizedValue": 0.03312990409764603
+        },
+        "Twitterツイート数": {
+          "value": 12000.0,
+          "normalizedValue": 0.19047619047619047
+        },
+        "Twitter開始年月": {
+          "value": 201303.0,
+          "normalizedValue": 0.9965297716876893
+        },
+        "外国人訪問率": {
+          "value": 0.166544805,
+          "normalizedValue": 0.004493794926408212
+        },
+        "芸能人": { "value": 10.0, "normalizedValue": 0.06993006993006994 },
+        "経度": 139.0,
+        "緯度": 36.5
+      },
+      {
+        "都道府県名": "埼玉県",
+        "米": { "value": 154200.0, "normalizedValue": 0.23805068612614064 },
+        "牛乳": { "value": 52211.0, "normalizedValue": 0.011891447455640337 },
+        "肉用牛": { "value": 11000.0, "normalizedValue": 0.03235728346456693 },
+        "豚": { "value": 94900.0, "normalizedValue": 0.07352024430468646 },
+        "鶏卵": { "value": 3982.0, "normalizedValue": 0.25434162778641783 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 15300.0, "normalizedValue": 0.11469265367316342 },
+        "乳牛": { "value": 6050.0, "normalizedValue": 0.018047355286383834 },
+        "いちご": { "value": 3110.0, "normalizedValue": 0.12244094488188977 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 13.0, "normalizedValue": 0.07602339181286549 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 36.0, "normalizedValue": 0.16129032258064516 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 6480.0,
+          "normalizedValue": 0.004378378378378379
+        },
+        "Youtube最高再生数": {
+          "value": 325961.0,
+          "normalizedValue": 0.02283667256154827
+        },
+        "Twitterフォロワー数": {
+          "value": 162000.0,
+          "normalizedValue": 0.14123801220575413
+        },
+        "Twitterツイート数": {
+          "value": 6955.0,
+          "normalizedValue": 0.1103968253968254
+        },
+        "Twitter開始年月": {
+          "value": 201204.0,
+          "normalizedValue": 0.996039682382527
+        },
+        "外国人訪問率": {
+          "value": 0.266742492,
+          "normalizedValue": 0.0102939255407933
+        },
+        "芸能人": { "value": 13.0, "normalizedValue": 0.09090909090909091 },
+        "経度": 139.2,
+        "緯度": 36.0
+      },
+      {
+        "都道府県名": "千葉県",
+        "米": { "value": 289000.0, "normalizedValue": 0.4468548485782574 },
+        "牛乳": { "value": 202130.0, "normalizedValue": 0.04974908290832013 },
+        "肉用牛": { "value": 11300.0, "normalizedValue": 0.03328001968503937 },
+        "豚": { "value": 603800.0, "normalizedValue": 0.4750921271710054 },
+        "鶏卵": { "value": 12435.0, "normalizedValue": 0.802099533437014 },
+        "ブロイラー": { "value": 1957.0, "normalizedValue": 0.06930868394956793 },
+        "トマト": { "value": 31900.0, "normalizedValue": 0.2391304347826087 },
+        "乳牛": { "value": 28300.0, "normalizedValue": 0.0857629800961714 },
+        "いちご": { "value": 6590.0, "normalizedValue": 0.2594488188976378 },
+        "火力": { "value": 22.0, "normalizedValue": 0.6285714285714286 },
+        "水力": { "value": 1.0, "normalizedValue": 0.005847953216374269 },
+        "風力": { "value": 12.0, "normalizedValue": 0.21428571428571427 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 166.0, "normalizedValue": 0.7603686635944701 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 7642779.0,
+          "normalizedValue": 0.11371770194801244
+        },
+        "Youtube登録者数": {
+          "value": 3570.0,
+          "normalizedValue": 0.002412162162162162
+        },
+        "Youtube最高再生数": {
+          "value": 991902.0,
+          "normalizedValue": 0.07049532678376705
+        },
+        "Twitterフォロワー数": {
+          "value": 276000.0,
+          "normalizedValue": 0.24062772449869224
+        },
+        "Twitterツイート数": {
+          "value": 10000.0,
+          "normalizedValue": 0.15873015873015872
+        },
+        "Twitter開始年月": {
+          "value": 201112.0,
+          "normalizedValue": 0.9955842458565177
+        },
+        "外国人訪問率": {
+          "value": 11.85311561,
+          "normalizedValue": 0.6809928153405169
+        },
+        "芸能人": { "value": 30.0, "normalizedValue": 0.2097902097902098 },
+        "経度": 140.0724,
+        "緯度": 35.3617
+      },
+      {
+        "都道府県名": "東京都",
+        "米": { "value": 519.0, "normalizedValue": 0.0 },
+        "牛乳": { "value": 9191.0, "normalizedValue": 0.00102801135231598 },
+        "肉用牛": { "value": 520.0, "normalizedValue": 0.00012303149606299212 },
+        "豚": { "value": 2720.0, "normalizedValue": 0.000781206846212725 },
+        "鶏卵": { "value": 78.0, "normalizedValue": 0.0013608087091757388 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 0.0, "normalizedValue": 0.0 },
+        "乳牛": { "value": 120.0, "normalizedValue": 0.0 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 35.0, "normalizedValue": 1.0 },
+        "水力": { "value": 5.0, "normalizedValue": 0.029239766081871343 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 7.0, "normalizedValue": 0.027649769585253458 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 67208349.0, "normalizedValue": 1.0 },
+        "Youtube登録者数": { "value": 1480000.0, "normalizedValue": 1.0 },
+        "Youtube最高再生数": {
+          "value": 6871105.0,
+          "normalizedValue": 0.4912456678488635
+        },
+        "Twitterフォロワー数": { "value": 1147000.0, "normalizedValue": 1.0 },
+        "Twitterツイート数": {
+          "value": 22000.0,
+          "normalizedValue": 0.3492063492063492
+        },
+        "Twitter開始年月": {
+          "value": 201106.0,
+          "normalizedValue": 0.9955545434743867
+        },
+        "外国人訪問率": { "value": 17.36398841, "normalizedValue": 1.0 },
+        "芸能人": { "value": 143.0, "normalizedValue": 1.0 },
+        "経度": 139.6,
+        "緯度": 35.75
+      },
+      {
+        "都道府県名": "神奈川県",
+        "米": { "value": 14300.0, "normalizedValue": 0.02134666292843191 },
+        "牛乳": { "value": 33674.0, "normalizedValue": 0.007210473140267869 },
+        "肉用牛": { "value": 2410.0, "normalizedValue": 0.00593626968503937 },
+        "豚": { "value": 68700.0, "normalizedValue": 0.052845881303905246 },
+        "鶏卵": { "value": 1147.0, "normalizedValue": 0.07063245204769311 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 12100.0, "normalizedValue": 0.09070464767616192 },
+        "乳牛": { "value": 2480.0, "normalizedValue": 0.007182421328139266 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 28.0, "normalizedValue": 0.8 },
+        "水力": { "value": 27.0, "normalizedValue": 0.15789473684210525 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 35.0, "normalizedValue": 0.15668202764976957 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 27700.0,
+          "normalizedValue": 0.018716216216216216
+        },
+        "Youtube最高再生数": {
+          "value": 2660000.0,
+          "normalizedValue": 0.1898742294054328
+        },
+        "Twitterフォロワー数": {
+          "value": 141000.0,
+          "normalizedValue": 0.12292938099389712
+        },
+        "Twitterツイート数": {
+          "value": 14000.0,
+          "normalizedValue": 0.2222222222222222
+        },
+        "Twitter開始年月": {
+          "value": 201009.0,
+          "normalizedValue": 0.995074354963268
+        },
+        "外国人訪問率": {
+          "value": 2.671486988,
+          "normalizedValue": 0.14949706074913036
+        },
+        "芸能人": { "value": 87.0, "normalizedValue": 0.6083916083916084 },
+        "経度": 139.3833,
+        "緯度": 35.4
+      },
+      {
+        "都道府県名": "新潟県",
+        "米": { "value": 646100.0, "normalizedValue": 1.0 },
+        "牛乳": { "value": 42839.0, "normalizedValue": 0.009524824416115562 },
+        "肉用牛": { "value": 5300.0, "normalizedValue": 0.01482529527559055 },
+        "豚": { "value": 180600.0, "normalizedValue": 0.1411459278606769 },
+        "鶏卵": { "value": 7117.0, "normalizedValue": 0.45749092794193885 },
+        "ブロイラー": { "value": 901.0, "normalizedValue": 0.03190961892619351 },
+        "トマト": { "value": 9290.0, "normalizedValue": 0.06964017991004498 },
+        "乳牛": { "value": 7260.0, "normalizedValue": 0.021729867916489135 },
+        "いちご": { "value": 1410.0, "normalizedValue": 0.05551181102362205 },
+        "火力": { "value": 17.0, "normalizedValue": 0.4857142857142857 },
+        "水力": { "value": 85.0, "normalizedValue": 0.49707602339181284 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 18.0, "normalizedValue": 0.07834101382488479 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1063706.0,
+          "normalizedValue": 0.015826991970893378
+        },
+        "Youtube登録者数": {
+          "value": 2570.0,
+          "normalizedValue": 0.0017364864864864865
+        },
+        "Youtube最高再生数": {
+          "value": 229875.0,
+          "normalizedValue": 0.01596019333952092
+        },
+        "Twitterフォロワー数": {
+          "value": 48000.0,
+          "normalizedValue": 0.041848299912816043
+        },
+        "Twitterツイート数": {
+          "value": 32000.0,
+          "normalizedValue": 0.5079365079365079
+        },
+        "Twitter開始年月": {
+          "value": 201009.0,
+          "normalizedValue": 0.995074354963268
+        },
+        "外国人訪問率": {
+          "value": 0.249140196,
+          "normalizedValue": 0.009274983697224915
+        },
+        "芸能人": { "value": 19.0, "normalizedValue": 0.13286713286713286 },
+        "経度": 139.0125,
+        "緯度": 37.5408
+      },
+      {
+        "都道府県名": "富山県",
+        "米": { "value": 205700.0, "normalizedValue": 0.3178237897335888 },
+        "牛乳": { "value": 11597.0, "normalizedValue": 0.0016355759098380257 },
+        "肉用牛": { "value": 2310.0, "normalizedValue": 0.00562869094488189 },
+        "豚": { "value": 31200.0, "normalizedValue": 0.02325471288675657 },
+        "鶏卵": { "value": 1094.0, "normalizedValue": 0.06719803006739243 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 1540.0, "normalizedValue": 0.011544227886056972 },
+        "乳牛": { "value": 1260.0, "normalizedValue": 0.003469474709355408 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 126.0, "normalizedValue": 0.7368421052631579 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 12.0, "normalizedValue": 0.05069124423963134 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 455614.0,
+          "normalizedValue": 0.006779127991970164
+        },
+        "Youtube登録者数": {
+          "value": 1330.0,
+          "normalizedValue": 0.0008986486486486486
+        },
+        "Youtube最高再生数": {
+          "value": 142570.0,
+          "normalizedValue": 0.009712134116750717
+        },
+        "Twitterフォロワー数": {
+          "value": 24000.0,
+          "normalizedValue": 0.020924149956408022
+        },
+        "Twitterツイート数": {
+          "value": 5646.0,
+          "normalizedValue": 0.08961904761904763
+        },
+        "Twitter開始年月": {
+          "value": 201211.0,
+          "normalizedValue": 0.99607433516168
+        },
+        "外国人訪問率": {
+          "value": 0.625107193,
+          "normalizedValue": 0.031038536874835952
+        },
+        "芸能人": { "value": 4.0, "normalizedValue": 0.027972027972027972 },
+        "経度": 137.2,
+        "緯度": 36.703
+      },
+      {
+        "都道府県名": "石川県",
+        "米": { "value": 133000.0, "normalizedValue": 0.20521204930132703 },
+        "牛乳": { "value": 19406.0, "normalizedValue": 0.003607509255511199 },
+        "肉用牛": { "value": 2960.0, "normalizedValue": 0.007627952755905512 },
+        "豚": { "value": 21300.0, "normalizedValue": 0.015442644424629321 },
+        "鶏卵": { "value": 1190.0, "normalizedValue": 0.07341886988076723 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 3450.0, "normalizedValue": 0.02586206896551724 },
+        "乳牛": { "value": 450.0, "normalizedValue": 0.001004321626392355 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 2.0, "normalizedValue": 0.05714285714285714 },
+        "水力": { "value": 30.0, "normalizedValue": 0.17543859649122806 },
+        "風力": { "value": 7.0, "normalizedValue": 0.125 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 20.0, "normalizedValue": 0.08755760368663594 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1826015.0,
+          "normalizedValue": 0.02716946669825203
+        },
+        "Youtube登録者数": { "value": 444.0, "normalizedValue": 0.0003 },
+        "Youtube最高再生数": {
+          "value": 36097.0,
+          "normalizedValue": 0.0020923000909101384
+        },
+        "Twitterフォロワー数": {
+          "value": 4834.0,
+          "normalizedValue": 0.004214472537053182
+        },
+        "Twitterツイート数": {
+          "value": 1271.0,
+          "normalizedValue": 0.020174603174603175
+        },
+        "Twitter開始年月": {
+          "value": 201809.0,
+          "normalizedValue": 0.999034672580741
+        },
+        "外国人訪問率": {
+          "value": 1.076448127,
+          "normalizedValue": 0.05716525144478964
+        },
+        "芸能人": { "value": 7.0, "normalizedValue": 0.04895104895104895 },
+        "経度": 136.6,
+        "緯度": 36.354
+      },
+      {
+        "都道府県名": "福井県",
+        "米": { "value": 130500.0, "normalizedValue": 0.2013395685436839 },
+        "牛乳": { "value": 5459.0, "normalizedValue": 8.560448254362988e-5 },
+        "肉用牛": { "value": 1370.0, "normalizedValue": 0.0027374507874015747 },
+        "豚": { "value": 2440.0, "normalizedValue": 0.0005602594553646815 },
+        "鶏卵": { "value": 684.0, "normalizedValue": 0.0406298600311042 },
+        "ブロイラー": { "value": 76.0, "normalizedValue": 0.0026915993766822494 },
+        "トマト": { "value": 2280.0, "normalizedValue": 0.017091454272863568 },
+        "乳牛": { "value": 780.0, "normalizedValue": 0.00200864325278471 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 4.0, "normalizedValue": 0.11428571428571428 },
+        "水力": { "value": 30.0, "normalizedValue": 0.17543859649122806 },
+        "風力": { "value": 2.0, "normalizedValue": 0.03571428571428571 },
+        "原子力": { "value": 4.0, "normalizedValue": 1.0 },
+        "太陽光": { "value": 16.0, "normalizedValue": 0.06912442396313365 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 1650.0,
+          "normalizedValue": 0.001114864864864865
+        },
+        "Youtube最高再生数": {
+          "value": 35000.0,
+          "normalizedValue": 0.0020137923196784915
+        },
+        "Twitterフォロワー数": {
+          "value": 4462.0,
+          "normalizedValue": 0.003890148212728858
+        },
+        "Twitterツイート数": {
+          "value": 1161.0,
+          "normalizedValue": 0.01842857142857143
+        },
+        "Twitter開始年月": {
+          "value": 201310.0,
+          "normalizedValue": 0.9965644244668422
+        },
+        "外国人訪問率": { "value": 0.088914164, "normalizedValue": 0.0 },
+        "芸能人": { "value": 9.0, "normalizedValue": 0.06293706293706294 },
+        "経度": 136.1319,
+        "緯度": 36.0355
+      },
+      {
+        "都道府県名": "山梨県",
+        "米": { "value": 26500.0, "normalizedValue": 0.04024436902573031 },
+        "牛乳": { "value": 16705.0, "normalizedValue": 0.002925451121734372 },
+        "肉用牛": { "value": 2190.0, "normalizedValue": 0.005259596456692914 },
+        "豚": { "value": 15800.0, "normalizedValue": 0.011102606390114183 },
+        "鶏卵": { "value": 517.0, "normalizedValue": 0.029808190772420945 },
+        "ブロイラー": { "value": 431.0, "normalizedValue": 0.015264201728290126 },
+        "トマト": { "value": 5950.0, "normalizedValue": 0.04460269865067466 },
+        "乳牛": { "value": 2670.0, "normalizedValue": 0.007760667113031834 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 0.0, "normalizedValue": 0.0 },
+        "水力": { "value": 65.0, "normalizedValue": 0.38011695906432746 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 25.0, "normalizedValue": 0.11059907834101383 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 15100.0,
+          "normalizedValue": 0.010202702702702703
+        },
+        "Youtube最高再生数": {
+          "value": 235141.0,
+          "normalizedValue": 0.016337059267785142
+        },
+        "Twitterフォロワー数": {
+          "value": 11000.0,
+          "normalizedValue": 0.00959023539668701
+        },
+        "Twitterツイート数": {
+          "value": 12000.0,
+          "normalizedValue": 0.19047619047619047
+        },
+        "Twitter開始年月": {
+          "value": 201007.0,
+          "normalizedValue": 0.9950644541692244
+        },
+        "外国人訪問率": {
+          "value": 2.482375137,
+          "normalizedValue": 0.13854996736434863
+        },
+        "芸能人": { "value": 16.0, "normalizedValue": 0.11188811188811189 },
+        "経度": 138.5,
+        "緯度": 35.6
+      },
+      {
+        "都道府県名": "長野県",
+        "米": { "value": 198400.0, "normalizedValue": 0.3065161459212709 },
+        "牛乳": { "value": 94260.0, "normalizedValue": 0.0225096860588176 },
+        "肉用牛": { "value": 15700.0, "normalizedValue": 0.046813484251968504 },
+        "豚": { "value": 64600.0, "normalizedValue": 0.049610580223630324 },
+        "鶏卵": { "value": 589.0, "normalizedValue": 0.034473820632452044 },
+        "ブロイラー": { "value": 681.0, "normalizedValue": 0.024118147046323844 },
+        "トマト": { "value": 16200.0, "normalizedValue": 0.12143928035982009 },
+        "乳牛": { "value": 4900.0, "normalizedValue": 0.01454744658834987 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 1.0, "normalizedValue": 0.02857142857142857 },
+        "水力": { "value": 171.0, "normalizedValue": 1.0 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 41.0, "normalizedValue": 0.18433179723502305 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 153676.0,
+          "normalizedValue": 0.0022865611532876667
+        },
+        "Youtube登録者数": {
+          "value": 717.0,
+          "normalizedValue": 0.0004844594594594595
+        },
+        "Youtube最高再生数": {
+          "value": 539269.0,
+          "normalizedValue": 0.03810224746207706
+        },
+        "Twitterフォロワー数": {
+          "value": 56000.0,
+          "normalizedValue": 0.04882301656495205
+        },
+        "Twitterツイート数": {
+          "value": 12000.0,
+          "normalizedValue": 0.19047619047619047
+        },
+        "Twitter開始年月": {
+          "value": 201103.0,
+          "normalizedValue": 0.9955396922833212
+        },
+        "外国人訪問率": {
+          "value": 1.416759192,
+          "normalizedValue": 0.0768647942747603
+        },
+        "芸能人": { "value": 19.0, "normalizedValue": 0.13286713286713286 },
+        "経度": 138.1,
+        "緯度": 36.5
+      },
+      {
+        "都道府県名": "岐阜県",
+        "米": { "value": 108500.0, "normalizedValue": 0.16726173787642448 },
+        "牛乳": { "value": 35406.0, "normalizedValue": 0.00764783881509255 },
+        "肉用牛": { "value": 30300.0, "normalizedValue": 0.09171998031496063 },
+        "豚": { "value": 99800.0, "normalizedValue": 0.07738682364452722 },
+        "鶏卵": { "value": 5241.0, "normalizedValue": 0.3359253499222395 },
+        "ブロイラー": { "value": 993.0, "normalizedValue": 0.03516787080322992 },
+        "トマト": { "value": 24200.0, "normalizedValue": 0.18140929535232383 },
+        "乳牛": { "value": 1930.0, "normalizedValue": 0.005508551950818674 },
+        "いちご": { "value": 2540.0, "normalizedValue": 0.1 },
+        "火力": { "value": 1.0, "normalizedValue": 0.02857142857142857 },
+        "水力": { "value": 98.0, "normalizedValue": 0.5730994152046783 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 26.0, "normalizedValue": 0.1152073732718894 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 843.0,
+          "normalizedValue": 0.0005695945945945946
+        },
+        "Youtube最高再生数": {
+          "value": 10601.0,
+          "normalizedValue": 0.0002676563941717033
+        },
+        "Twitterフォロワー数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitterツイート数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitter開始年月": { "value": 0.0, "normalizedValue": 0.0 },
+        "外国人訪問率": {
+          "value": 1.608127748,
+          "normalizedValue": 0.08794252125149447
+        },
+        "芸能人": { "value": 5.0, "normalizedValue": 0.03496503496503497 },
+        "経度": 136.7,
+        "緯度": 35.6
+      },
+      {
+        "都道府県名": "静岡県",
+        "米": { "value": 81200.0, "normalizedValue": 0.12497424800296167 },
+        "牛乳": { "value": 88249.0, "normalizedValue": 0.020991784747402382 },
+        "肉用牛": { "value": 7400.0, "normalizedValue": 0.021284448818897638 },
+        "豚": { "value": 109100.0, "normalizedValue": 0.08472543341198008 },
+        "鶏卵": { "value": 4718.0, "normalizedValue": 0.30203473302229134 },
+        "ブロイラー": { "value": 1164.0, "normalizedValue": 0.04122396940076498 },
+        "トマト": { "value": 14200.0, "normalizedValue": 0.10644677661169415 },
+        "乳牛": { "value": 11700.0, "normalizedValue": 0.03524255888976809 },
+        "いちご": { "value": 10600.0, "normalizedValue": 0.41732283464566927 },
+        "火力": { "value": 7.0, "normalizedValue": 0.2 },
+        "水力": { "value": 59.0, "normalizedValue": 0.34502923976608185 },
+        "風力": { "value": 26.0, "normalizedValue": 0.4642857142857143 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 77.0, "normalizedValue": 0.35023041474654376 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 11300.0,
+          "normalizedValue": 0.007635135135135135
+        },
+        "Youtube最高再生数": {
+          "value": 760199.0,
+          "normalizedValue": 0.05391329750602209
+        },
+        "Twitterフォロワー数": {
+          "value": 12000.0,
+          "normalizedValue": 0.010462074978204011
+        },
+        "Twitterツイート数": {
+          "value": 4292.0,
+          "normalizedValue": 0.06812698412698413
+        },
+        "Twitter開始年月": {
+          "value": 201801.0,
+          "normalizedValue": 0.9989950694045663
+        },
+        "外国人訪問率": {
+          "value": 1.845533079,
+          "normalizedValue": 0.10168517309885024
+        },
+        "芸能人": { "value": 44.0, "normalizedValue": 0.3076923076923077 },
+        "経度": 138.1,
+        "緯度": 34.9
+      },
+      {
+        "都道府県名": "愛知県",
+        "米": { "value": 137200.0, "normalizedValue": 0.21171781697416744 },
+        "牛乳": { "value": 167427.0, "normalizedValue": 0.040985860614185646 },
+        "肉用牛": { "value": 12000.0, "normalizedValue": 0.03543307086614173 },
+        "豚": { "value": 352700.0, "normalizedValue": 0.2769496634497779 },
+        "鶏卵": { "value": 9185.0, "normalizedValue": 0.5914981855883877 },
+        "ブロイラー": { "value": 935.0, "normalizedValue": 0.033113755489446096 },
+        "トマト": { "value": 43900.0, "normalizedValue": 0.32908545727136435 },
+        "乳牛": { "value": 29200.0, "normalizedValue": 0.08850203907724147 },
+        "いちご": { "value": 10000.0, "normalizedValue": 0.3937007874015748 },
+        "火力": { "value": 19.0, "normalizedValue": 0.5428571428571428 },
+        "水力": { "value": 24.0, "normalizedValue": 0.14035087719298245 },
+        "風力": { "value": 6.0, "normalizedValue": 0.10714285714285714 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 61.0, "normalizedValue": 0.2764976958525346 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 7618685.0,
+          "normalizedValue": 0.11335920482141289
+        },
+        "Youtube登録者数": {
+          "value": 1390.0,
+          "normalizedValue": 0.0009391891891891892
+        },
+        "Youtube最高再生数": {
+          "value": 16294.0,
+          "normalizedValue": 0.0006750809535352078
+        },
+        "Twitterフォロワー数": {
+          "value": 22000.0,
+          "normalizedValue": 0.01918047079337402
+        },
+        "Twitterツイート数": {
+          "value": 36000.0,
+          "normalizedValue": 0.5714285714285714
+        },
+        "Twitter開始年月": {
+          "value": 201206.0,
+          "normalizedValue": 0.9960495831765708
+        },
+        "外国人訪問率": {
+          "value": 3.859416326,
+          "normalizedValue": 0.21826257348057704
+        },
+        "芸能人": { "value": 35.0, "normalizedValue": 0.24475524475524477 },
+        "経度": 137.0,
+        "緯度": 35.1049
+      },
+      {
+        "都道府県名": "三重県",
+        "米": { "value": 130200.0, "normalizedValue": 0.20087487085276673 },
+        "牛乳": { "value": 54634.0, "normalizedValue": 0.012503304863319438 },
+        "肉用牛": { "value": 26200.0, "normalizedValue": 0.07910925196850394 },
+        "豚": { "value": 111000.0, "normalizedValue": 0.08622471927844895 },
+        "鶏卵": { "value": 6947.0, "normalizedValue": 0.4464748574390876 },
+        "ブロイラー": { "value": 518.0, "normalizedValue": 0.01834537469896586 },
+        "トマト": { "value": 9780.0, "normalizedValue": 0.07331334332833583 },
+        "乳牛": { "value": 3020.0, "normalizedValue": 0.008825856716781301 },
+        "いちご": { "value": 1930.0, "normalizedValue": 0.07598425196850393 },
+        "火力": { "value": 6.0, "normalizedValue": 0.17142857142857143 },
+        "水力": { "value": 20.0, "normalizedValue": 0.11695906432748537 },
+        "風力": { "value": 5.0, "normalizedValue": 0.08928571428571429 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 134.0, "normalizedValue": 0.6129032258064516 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 1830.0,
+          "normalizedValue": 0.0012364864864864865
+        },
+        "Youtube最高再生数": {
+          "value": 374524.0,
+          "normalizedValue": 0.02631212643057512
+        },
+        "Twitterフォロワー数": {
+          "value": 18000.0,
+          "normalizedValue": 0.015693112467306015
+        },
+        "Twitterツイート数": {
+          "value": 2400.0,
+          "normalizedValue": 0.0380952380952381
+        },
+        "Twitter開始年月": {
+          "value": 201902.0,
+          "normalizedValue": 0.9994950595037722
+        },
+        "外国人訪問率": {
+          "value": 0.29788502,
+          "normalizedValue": 0.012096669051850044
+        },
+        "芸能人": { "value": 6.0, "normalizedValue": 0.04195804195804196 },
+        "経度": 136.3031,
+        "緯度": 34.4349
+      },
+      {
+        "都道府県名": "滋賀県",
+        "米": { "value": 161400.0, "normalizedValue": 0.24920343070815282 },
+        "牛乳": { "value": 17777.0, "normalizedValue": 0.0031961532022263227 },
+        "肉用牛": { "value": 16000.0, "normalizedValue": 0.04773622047244094 },
+        "豚": { "value": 3980.0, "normalizedValue": 0.0017754701050289204 },
+        "鶏卵": { "value": 380.0, "normalizedValue": 0.020930533955417316 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 3510.0, "normalizedValue": 0.02631184407796102 },
+        "乳牛": { "value": 3960.0, "normalizedValue": 0.011686651652565586 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 2.0, "normalizedValue": 0.05714285714285714 },
+        "水力": { "value": 14.0, "normalizedValue": 0.08187134502923976 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 21.0, "normalizedValue": 0.09216589861751152 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 7950.0,
+          "normalizedValue": 0.005371621621621621
+        },
+        "Youtube最高再生数": {
+          "value": 396182.0,
+          "normalizedValue": 0.027862100276823985
+        },
+        "Twitterフォロワー数": {
+          "value": 33000.0,
+          "normalizedValue": 0.02877070619006103
+        },
+        "Twitterツイート数": { "value": 7497.0, "normalizedValue": 0.119 },
+        "Twitter開始年月": {
+          "value": 201202.0,
+          "normalizedValue": 0.9960297815884834
+        },
+        "外国人訪問率": {
+          "value": 0.24462679,
+          "normalizedValue": 0.009013716744867529
+        },
+        "芸能人": { "value": 2.0, "normalizedValue": 0.013986013986013986 },
+        "経度": 136.1,
+        "緯度": 35.1
+      },
+      {
+        "都道府県名": "京都府",
+        "米": { "value": 72700.0, "normalizedValue": 0.11180781342697509 },
+        "牛乳": { "value": 26878.0, "normalizedValue": 0.00549434315983569 },
+        "肉用牛": { "value": 5480.0, "normalizedValue": 0.015378937007874016 },
+        "豚": { "value": 9880.0, "normalizedValue": 0.006431147269326978 },
+        "鶏卵": { "value": 1655.0, "normalizedValue": 0.10355106272680145 },
+        "ブロイラー": { "value": 328.0, "normalizedValue": 0.011616376257260235 },
+        "トマト": { "value": 5020.0, "normalizedValue": 0.0376311844077961 },
+        "乳牛": { "value": 320.0, "normalizedValue": 0.0006086797735711242 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 7.0, "normalizedValue": 0.2 },
+        "水力": { "value": 22.0, "normalizedValue": 0.1286549707602339 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 12.0, "normalizedValue": 0.05069124423963134 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 5870.0,
+          "normalizedValue": 0.003966216216216217
+        },
+        "Youtube最高再生数": {
+          "value": 800073.0,
+          "normalizedValue": 0.0567669154368249
+        },
+        "Twitterフォロワー数": {
+          "value": 90000.0,
+          "normalizedValue": 0.07846556233653008
+        },
+        "Twitterツイート数": {
+          "value": 5775.0,
+          "normalizedValue": 0.09166666666666666
+        },
+        "Twitter開始年月": {
+          "value": 201103.0,
+          "normalizedValue": 0.9955396922833212
+        },
+        "外国人訪問率": {
+          "value": 11.9411271,
+          "normalizedValue": 0.6860875251372276
+        },
+        "芸能人": { "value": 21.0, "normalizedValue": 0.14685314685314685 },
+        "経度": 135.7,
+        "緯度": 35.02
+      },
+      {
+        "都道府県名": "大阪府",
+        "米": { "value": 24300.0, "normalizedValue": 0.03683658595900437 },
+        "牛乳": { "value": 9346.0, "normalizedValue": 0.0010671520449244245 },
+        "肉用牛": { "value": 480.0, "normalizedValue": 0.0 },
+        "豚": { "value": 3450.0, "normalizedValue": 0.0013572482580665524 },
+        "鶏卵": { "value": 57.0, "normalizedValue": 0.0 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 0.0, "normalizedValue": 0.0 },
+        "乳牛": { "value": 280.0, "normalizedValue": 0.0004869438188568994 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 21.0, "normalizedValue": 0.6 },
+        "水力": { "value": 1.0, "normalizedValue": 0.005847953216374269 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 51.0, "normalizedValue": 0.2304147465437788 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 23488431.0,
+          "normalizedValue": 0.3494868025994806
+        },
+        "Youtube登録者数": {
+          "value": 5880.0,
+          "normalizedValue": 0.003972972972972973
+        },
+        "Youtube最高再生数": {
+          "value": 108030.0,
+          "normalizedValue": 0.007240248594106163
+        },
+        "Twitterフォロワー数": {
+          "value": 53000.0,
+          "normalizedValue": 0.046207497820401046
+        },
+        "Twitterツイート数": {
+          "value": 23000.0,
+          "normalizedValue": 0.36507936507936506
+        },
+        "Twitter開始年月": {
+          "value": 201211.0,
+          "normalizedValue": 0.99607433516168
+        },
+        "外国人訪問率": {
+          "value": 2.37450465,
+          "normalizedValue": 0.13230568236366463
+        },
+        "芸能人": { "value": 40.0, "normalizedValue": 0.27972027972027974 },
+        "経度": 135.5,
+        "緯度": 34.6
+      },
+      {
+        "都道府県名": "兵庫県",
+        "米": { "value": 182900.0, "normalizedValue": 0.2825067652238836 },
+        "牛乳": { "value": 80686.0, "normalizedValue": 0.019081971468707774 },
+        "肉用牛": { "value": 48000.0, "normalizedValue": 0.14616141732283464 },
+        "豚": { "value": 22100.0, "normalizedValue": 0.01607392268419516 },
+        "鶏卵": { "value": 5765.0, "normalizedValue": 0.3698807672369103 },
+        "ブロイラー": { "value": 2438.0, "normalizedValue": 0.0863436747414648 },
+        "トマト": { "value": 9350.0, "normalizedValue": 0.07008995502248876 },
+        "乳牛": { "value": 7720.0, "normalizedValue": 0.02312983139570272 },
+        "いちご": { "value": 1810.0, "normalizedValue": 0.07125984251968503 },
+        "火力": { "value": 20.0, "normalizedValue": 0.5714285714285714 },
+        "水力": { "value": 19.0, "normalizedValue": 0.1111111111111111 },
+        "風力": { "value": 17.0, "normalizedValue": 0.30357142857142855 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 105.0, "normalizedValue": 0.4792626728110599 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 3404776.0,
+          "normalizedValue": 0.05066001546920904
+        },
+        "Youtube登録者数": { "value": 2590.0, "normalizedValue": 0.00175 },
+        "Youtube最高再生数": {
+          "value": 412857.0,
+          "normalizedValue": 0.02905546133907349
+        },
+        "Twitterフォロワー数": {
+          "value": 75000.0,
+          "normalizedValue": 0.06538796861377506
+        },
+        "Twitterツイート数": {
+          "value": 2777.0,
+          "normalizedValue": 0.04407936507936508
+        },
+        "Twitter開始年月": {
+          "value": 201202.0,
+          "normalizedValue": 0.9960297815884834
+        },
+        "外国人訪問率": {
+          "value": 2.37450465,
+          "normalizedValue": 0.13230568236366463
+        },
+        "芸能人": { "value": 40.0, "normalizedValue": 0.27972027972027974 },
+        "経度": 135.0,
+        "緯度": 34.9
+      },
+      {
+        "都道府県名": "奈良県",
+        "米": { "value": 43700.0, "normalizedValue": 0.06688703663831494 },
+        "牛乳": { "value": 23385.0, "normalizedValue": 0.0046122887128595864 },
+        "肉用牛": { "value": 3830.0, "normalizedValue": 0.010303887795275591 },
+        "豚": { "value": 6590.0, "normalizedValue": 0.0038350154268624683 },
+        "鶏卵": { "value": 456.0, "normalizedValue": 0.025855365474339035 },
+        "ブロイラー": { "value": 0.0, "normalizedValue": 0.0 },
+        "トマト": { "value": 3690.0, "normalizedValue": 0.027661169415292355 },
+        "乳牛": { "value": 410.0, "normalizedValue": 0.0008825856716781302 },
+        "いちご": { "value": 2300.0, "normalizedValue": 0.09055118110236221 },
+        "火力": { "value": 0.0, "normalizedValue": 0.0 },
+        "水力": { "value": 15.0, "normalizedValue": 0.08771929824561403 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 22.0, "normalizedValue": 0.0967741935483871 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Youtube登録者数": {
+          "value": 220.0,
+          "normalizedValue": 0.00014864864864864866
+        },
+        "Youtube最高再生数": { "value": 6861.0, "normalizedValue": 0.0 },
+        "Twitterフォロワー数": {
+          "value": 16000.0,
+          "normalizedValue": 0.013949433304272014
+        },
+        "Twitterツイート数": {
+          "value": 7594.0,
+          "normalizedValue": 0.12053968253968254
+        },
+        "Twitter開始年月": {
+          "value": 201206.0,
+          "normalizedValue": 0.9960495831765708
+        },
+        "外国人訪問率": {
+          "value": 4.82663995,
+          "normalizedValue": 0.274252122945116
+        },
+        "芸能人": { "value": 5.0, "normalizedValue": 0.03496503496503497 },
+        "経度": 135.8,
+        "緯度": 34.4
+      },
+      {
+        "都道府県名": "和歌山県",
+        "米": { "value": 31400.0, "normalizedValue": 0.047834431310710815 },
+        "牛乳": { "value": 5120.0, "normalizedValue": 0.0 },
+        "肉用牛": { "value": 2410.0, "normalizedValue": 0.00593626968503937 },
+        "豚": { "value": 1730.0, "normalizedValue": 0.0 },
+        "鶏卵": { "value": 369.0, "normalizedValue": 0.02021772939346812 },
+        "ブロイラー": { "value": 596.0, "normalizedValue": 0.021107805638192378 },
+        "トマト": { "value": 4130.0, "normalizedValue": 0.03095952023988006 },
+        "乳牛": { "value": 270.0, "normalizedValue": 0.0004565098301783432 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 15.0, "normalizedValue": 0.08771929824561403 },
+        "風力": { "value": 7.0, "normalizedValue": 0.125 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 28.0, "normalizedValue": 0.12442396313364056 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 182158.0,
+          "normalizedValue": 0.002710347787296486
+        },
+        "Youtube登録者数": {
+          "value": 3420.0,
+          "normalizedValue": 0.002310810810810811
+        },
+        "Youtube最高再生数": {
+          "value": 692022.0,
+          "normalizedValue": 0.04903415045109048
+        },
+        "Twitterフォロワー数": {
+          "value": 16000.0,
+          "normalizedValue": 0.013949433304272014
+        },
+        "Twitterツイート数": {
+          "value": 11000.0,
+          "normalizedValue": 0.1746031746031746
+        },
+        "Twitter開始年月": {
+          "value": 201504.0,
+          "normalizedValue": 0.9975248014890794
+        },
+        "外国人訪問率": {
+          "value": 0.44883021,
+          "normalizedValue": 0.020834413842437616
+        },
+        "芸能人": { "value": 8.0, "normalizedValue": 0.055944055944055944 },
+        "経度": 135.4,
+        "緯度": 34.1334
+      },
+      {
+        "都道府県名": "鳥取県",
+        "米": { "value": 65300.0, "normalizedValue": 0.10034527038435145 },
+        "牛乳": { "value": 57121.0, "normalizedValue": 0.013131323589236864 },
+        "肉用牛": { "value": 12300.0, "normalizedValue": 0.03635580708661417 },
+        "豚": { "value": 66500.0, "normalizedValue": 0.05110986609009919 },
+        "鶏卵": { "value": 575.0, "normalizedValue": 0.03356661482633489 },
+        "ブロイラー": { "value": 3170.0, "normalizedValue": 0.11226802663266752 },
+        "トマト": { "value": 3590.0, "normalizedValue": 0.026911544227886056 },
+        "乳牛": { "value": 7560.0, "normalizedValue": 0.02264288757684582 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 2.0, "normalizedValue": 0.05714285714285714 },
+        "水力": { "value": 31.0, "normalizedValue": 0.18128654970760233 },
+        "風力": { "value": 6.0, "normalizedValue": 0.10714285714285714 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 19.0, "normalizedValue": 0.08294930875576037 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1015684.0,
+          "normalizedValue": 0.015112467648922606
+        },
+        "Youtube登録者数": {
+          "value": 15600.0,
+          "normalizedValue": 0.01054054054054054
+        },
+        "Youtube最高再生数": {
+          "value": 1411651.0,
+          "normalizedValue": 0.10053503368140831
+        },
+        "Twitterフォロワー数": {
+          "value": 34000.0,
+          "normalizedValue": 0.02964254577157803
+        },
+        "Twitterツイート数": {
+          "value": 26000.0,
+          "normalizedValue": 0.4126984126984127
+        },
+        "Twitter開始年月": {
+          "value": 201007.0,
+          "normalizedValue": 0.9950644541692244
+        },
+        "外国人訪問率": {
+          "value": 0.19859001,
+          "normalizedValue": 0.006348791584811576
+        },
+        "芸能人": { "value": 3.0, "normalizedValue": 0.02097902097902098 },
+        "経度": 134.1,
+        "緯度": 35.5
+      },
+      {
+        "都道府県名": "島根県",
+        "米": { "value": 87500.0, "normalizedValue": 0.13473289951222234 },
+        "牛乳": { "value": 66581.0, "normalizedValue": 0.01552016844133934 },
+        "肉用牛": { "value": 25400.0, "normalizedValue": 0.0766486220472441 },
+        "豚": { "value": 39600.0, "normalizedValue": 0.029883134612197874 },
+        "鶏卵": { "value": 985.0, "normalizedValue": 0.06013478486262312 },
+        "ブロイラー": { "value": 388.0, "normalizedValue": 0.013741323133588328 },
+        "トマト": { "value": 3310.0, "normalizedValue": 0.024812593703148426 },
+        "乳牛": { "value": 6090.0, "normalizedValue": 0.01816909124109806 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 4.0, "normalizedValue": 0.11428571428571428 },
+        "水力": { "value": 26.0, "normalizedValue": 0.15204678362573099 },
+        "風力": { "value": 6.0, "normalizedValue": 0.10714285714285714 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 17.0, "normalizedValue": 0.07373271889400922 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1265718.0,
+          "normalizedValue": 0.018832749484740355
+        },
+        "Youtube登録者数": {
+          "value": 9070.0,
+          "normalizedValue": 0.006128378378378378
+        },
+        "Youtube最高再生数": {
+          "value": 554631.0,
+          "normalizedValue": 0.03920164252284329
+        },
+        "Twitterフォロワー数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitterツイート数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitter開始年月": { "value": 0.0, "normalizedValue": 0.0 },
+        "外国人訪問率": {
+          "value": 0.10516244,
+          "normalizedValue": 0.0009405618620575385
+        },
+        "芸能人": { "value": 7.0, "normalizedValue": 0.04895104895104895 },
+        "経度": 133.0302,
+        "緯度": 35.282
+      },
+      {
+        "都道府県名": "岡山県",
+        "米": { "value": 155600.0, "normalizedValue": 0.24021927535042079 },
+        "牛乳": { "value": 99357.0, "normalizedValue": 0.023796783544141737 },
+        "肉用牛": { "value": 14700.0, "normalizedValue": 0.0437376968503937 },
+        "豚": { "value": 40100.0, "normalizedValue": 0.030277683524426523 },
+        "鶏卵": { "value": 10387.0, "normalizedValue": 0.6693882840850182 },
+        "ブロイラー": { "value": 2545.0, "normalizedValue": 0.09013316333758323 },
+        "トマト": { "value": 4710.0, "normalizedValue": 0.03530734632683658 },
+        "乳牛": { "value": 18700.0, "normalizedValue": 0.05654635096475744 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 36.0, "normalizedValue": 0.21052631578947367 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 80.0, "normalizedValue": 0.3640552995391705 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1801527.0,
+          "normalizedValue": 0.026805107204761123
+        },
+        "Youtube登録者数": {
+          "value": 13700.0,
+          "normalizedValue": 0.009256756756756758
+        },
+        "Youtube最高再生数": {
+          "value": 5000231.0,
+          "normalizedValue": 0.35735492218319737
+        },
+        "Twitterフォロワー数": {
+          "value": 22000.0,
+          "normalizedValue": 0.01918047079337402
+        },
+        "Twitterツイート数": {
+          "value": 4454.0,
+          "normalizedValue": 0.0706984126984127
+        },
+        "Twitter開始年月": {
+          "value": 201506.0,
+          "normalizedValue": 0.9975347022831231
+        },
+        "外国人訪問率": {
+          "value": 0.41523366,
+          "normalizedValue": 0.01888961467563929
+        },
+        "芸能人": { "value": 5.0, "normalizedValue": 0.03496503496503497 },
+        "経度": 133.9,
+        "緯度": 34.8
+      },
+      {
+        "都道府県名": "広島県",
+        "米": { "value": 113300.0, "normalizedValue": 0.17469690093109927 },
+        "牛乳": { "value": 49364.0, "normalizedValue": 0.011172521314632332 },
+        "肉用牛": { "value": 13800.0, "normalizedValue": 0.040969488188976375 },
+        "豚": { "value": 110800.0, "normalizedValue": 0.0860668997135575 },
+        "鶏卵": { "value": 9409.0, "normalizedValue": 0.6060134784862623 },
+        "ブロイラー": { "value": 765.0, "normalizedValue": 0.02709307267318317 },
+        "トマト": { "value": 9880.0, "normalizedValue": 0.07406296851574212 },
+        "乳牛": { "value": 11100.0, "normalizedValue": 0.03341651956905472 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 13.0, "normalizedValue": 0.37142857142857144 },
+        "水力": { "value": 37.0, "normalizedValue": 0.21637426900584794 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 45.0, "normalizedValue": 0.20276497695852536 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 2802121.0,
+          "normalizedValue": 0.04169304917756572
+        },
+        "Youtube登録者数": {
+          "value": 4680.0,
+          "normalizedValue": 0.003162162162162162
+        },
+        "Youtube最高再生数": {
+          "value": 288382.0,
+          "normalizedValue": 0.020147298327169005
+        },
+        "Twitterフォロワー数": {
+          "value": 11800.0,
+          "normalizedValue": 0.01028770706190061
+        },
+        "Twitterツイート数": {
+          "value": 15000.0,
+          "normalizedValue": 0.23809523809523808
+        },
+        "Twitter開始年月": {
+          "value": 201009.0,
+          "normalizedValue": 0.995074354963268
+        },
+        "外国人訪問率": {
+          "value": 1.3598023,
+          "normalizedValue": 0.07356773799651083
+        },
+        "芸能人": { "value": 7.0, "normalizedValue": 0.04895104895104895 },
+        "経度": 132.45,
+        "緯度": 34.3942
+      },
+      {
+        "都道府県名": "山口県",
+        "米": { "value": 91500.0, "normalizedValue": 0.14092886872445132 },
+        "牛乳": { "value": 16491.0, "normalizedValue": 0.0028714117138749717 },
+        "肉用牛": { "value": 12000.0, "normalizedValue": 0.03543307086614173 },
+        "豚": { "value": 23300.0, "normalizedValue": 0.017020840073543916 },
+        "鶏卵": { "value": 1984.0, "normalizedValue": 0.12487039917055469 },
+        "ブロイラー": { "value": 1544.0, "normalizedValue": 0.05468196628417623 },
+        "トマト": { "value": 4640.0, "normalizedValue": 0.034782608695652174 },
+        "乳牛": { "value": 2770.0, "normalizedValue": 0.008065006999817397 },
+        "いちご": { "value": 2140.0, "normalizedValue": 0.08425196850393701 },
+        "火力": { "value": 18.0, "normalizedValue": 0.5142857142857142 },
+        "水力": { "value": 22.0, "normalizedValue": 0.1286549707602339 },
+        "風力": { "value": 15.0, "normalizedValue": 0.26785714285714285 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 83.0, "normalizedValue": 0.3778801843317972 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1528689.0,
+          "normalizedValue": 0.02274552228622667
+        },
+        "Youtube登録者数": {
+          "value": 696.0,
+          "normalizedValue": 0.00047027027027027026
+        },
+        "Youtube最高再生数": {
+          "value": 11995.0,
+          "normalizedValue": 0.00036741923199933816
+        },
+        "Twitterフォロワー数": {
+          "value": 21000.0,
+          "normalizedValue": 0.018308631211857017
+        },
+        "Twitterツイート数": {
+          "value": 1623.0,
+          "normalizedValue": 0.025761904761904764
+        },
+        "Twitter開始年月": {
+          "value": 201306.0,
+          "normalizedValue": 0.9965446228787549
+        },
+        "外国人訪問率": {
+          "value": 0.24507813,
+          "normalizedValue": 0.009039843405371143
+        },
+        "芸能人": { "value": 2.0, "normalizedValue": 0.013986013986013986 },
+        "経度": 131.2817,
+        "緯度": 34.1109
+      },
+      {
+        "都道府県名": "徳島県",
+        "米": { "value": 52400.0, "normalizedValue": 0.08036326967491299 },
+        "牛乳": { "value": 29536.0, "normalizedValue": 0.0061655429079211415 },
+        "肉用牛": { "value": 9700.0, "normalizedValue": 0.028358759842519687 },
+        "豚": { "value": 38100.0, "normalizedValue": 0.028699487875511926 },
+        "鶏卵": { "value": 804.0, "normalizedValue": 0.04840590979782271 },
+        "ブロイラー": { "value": 4276.0, "normalizedValue": 0.15143788071964867 },
+        "トマト": { "value": 4830.0, "normalizedValue": 0.03620689655172414 },
+        "乳牛": { "value": 13200.0, "normalizedValue": 0.03980765719155153 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 4.0, "normalizedValue": 0.11428571428571428 },
+        "水力": { "value": 18.0, "normalizedValue": 0.10526315789473684 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 16.0, "normalizedValue": 0.06912442396313365 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1210359.0,
+          "normalizedValue": 0.018009057178297892
+        },
+        "Youtube登録者数": {
+          "value": 8450.0,
+          "normalizedValue": 0.005709459459459459
+        },
+        "Youtube最高再生数": {
+          "value": 2125688.0,
+          "normalizedValue": 0.15163572050632287
+        },
+        "Twitterフォロワー数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitterツイート数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitter開始年月": { "value": 0.0, "normalizedValue": 0.0 },
+        "外国人訪問率": {
+          "value": 0.15480994,
+          "normalizedValue": 0.0038145003061424176
+        },
+        "芸能人": { "value": 1.0, "normalizedValue": 0.006993006993006993 },
+        "経度": 134.4,
+        "緯度": 34.0
+      },
+      {
+        "都道府県名": "香川県",
+        "米": { "value": 56500.0, "normalizedValue": 0.0867141381174477 },
+        "牛乳": { "value": 34187.0, "normalizedValue": 0.0073400162067719455 },
+        "肉用牛": { "value": 8630.0, "normalizedValue": 0.025067667322834646 },
+        "豚": { "value": 38500.0, "normalizedValue": 0.029015127005294846 },
+        "鶏卵": { "value": 5516.0, "normalizedValue": 0.3537454639709694 },
+        "ブロイラー": { "value": 2153.0, "normalizedValue": 0.07625017707890636 },
+        "トマト": { "value": 3450.0, "normalizedValue": 0.02586206896551724 },
+        "乳牛": { "value": 12400.0, "normalizedValue": 0.03737293809726703 },
+        "いちご": { "value": 3170.0, "normalizedValue": 0.12480314960629921 },
+        "火力": { "value": 1.0, "normalizedValue": 0.02857142857142857 },
+        "水力": { "value": 0.0, "normalizedValue": 0.0 },
+        "風力": { "value": 0.0, "normalizedValue": 0.0 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 34.0, "normalizedValue": 0.15207373271889402 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1814284.0,
+          "normalizedValue": 0.02699491993174836
+        },
+        "Youtube登録者数": {
+          "value": 9300.0,
+          "normalizedValue": 0.006283783783783784
+        },
+        "Youtube最高再生数": {
+          "value": 264584.0,
+          "normalizedValue": 0.018444173496019758
+        },
+        "Twitterフォロワー数": {
+          "value": 33000.0,
+          "normalizedValue": 0.02877070619006103
+        },
+        "Twitterツイート数": {
+          "value": 11000.0,
+          "normalizedValue": 0.1746031746031746
+        },
+        "Twitter開始年月": {
+          "value": 201111.0,
+          "normalizedValue": 0.9955792954594959
+        },
+        "外国人訪問率": {
+          "value": 0.60840758,
+          "normalizedValue": 0.03007184852593541
+        },
+        "芸能人": { "value": 1.0, "normalizedValue": 0.006993006993006993 },
+        "経度": 134.0236,
+        "緯度": 34.2025
+      },
+      {
+        "都道府県名": "愛媛県",
+        "米": { "value": 63900.0, "normalizedValue": 0.09817668116007132 },
+        "牛乳": { "value": 31460.0, "normalizedValue": 0.0066513925374608 },
+        "肉用牛": { "value": 5230.0, "normalizedValue": 0.014609990157480315 },
+        "豚": { "value": 193000.0, "normalizedValue": 0.1509307408839474 },
+        "鶏卵": { "value": 2512.0, "normalizedValue": 0.15908501814411613 },
+        "ブロイラー": { "value": 968.0, "normalizedValue": 0.03428247627142655 },
+        "トマト": { "value": 7010.0, "normalizedValue": 0.05254872563718141 },
+        "乳牛": { "value": 4910.0, "normalizedValue": 0.014577880577028425 },
+        "いちご": { "value": 2460.0, "normalizedValue": 0.09685039370078741 },
+        "火力": { "value": 8.0, "normalizedValue": 0.22857142857142856 },
+        "水力": { "value": 27.0, "normalizedValue": 0.15789473684210525 },
+        "風力": { "value": 7.0, "normalizedValue": 0.125 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 25.0, "normalizedValue": 0.11059907834101383 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 3054961.0,
+          "normalizedValue": 0.04545508177860462
+        },
+        "Youtube登録者数": {
+          "value": 8550.0,
+          "normalizedValue": 0.005777027027027027
+        },
+        "Youtube最高再生数": {
+          "value": 1445732.0,
+          "normalizedValue": 0.10297407046476816
+        },
+        "Twitterフォロワー数": {
+          "value": 4206.0,
+          "normalizedValue": 0.0036669572798605056
+        },
+        "Twitterツイート数": {
+          "value": 344.0,
+          "normalizedValue": 0.0054603174603174605
+        },
+        "Twitter開始年月": { "value": 202004.0, "normalizedValue": 1.0 },
+        "外国人訪問率": {
+          "value": 0.2017494,
+          "normalizedValue": 0.0065316787872056
+        },
+        "芸能人": { "value": 4.0, "normalizedValue": 0.027972027972027972 },
+        "経度": 132.7,
+        "緯度": 33.503
+      },
+      {
+        "都道府県名": "高知県",
+        "米": { "value": 47900.0, "normalizedValue": 0.07339280431115537 },
+        "牛乳": { "value": 20953.0, "normalizedValue": 0.003998158619803221 },
+        "肉用牛": { "value": 4910.0, "normalizedValue": 0.013625738188976378 },
+        "豚": { "value": 26300.0, "normalizedValue": 0.01938813354691581 },
+        "鶏卵": { "value": 308.0, "normalizedValue": 0.01626490409538621 },
+        "ブロイラー": { "value": 403.0, "normalizedValue": 0.01427255985267035 },
+        "トマト": { "value": 7000.0, "normalizedValue": 0.05247376311844078 },
+        "乳牛": { "value": 980.0, "normalizedValue": 0.002617323026355834 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 3.0, "normalizedValue": 0.08571428571428572 },
+        "水力": { "value": 43.0, "normalizedValue": 0.25146198830409355 },
+        "風力": { "value": 5.0, "normalizedValue": 0.08928571428571429 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 14.0, "normalizedValue": 0.059907834101382486 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 1653948.0,
+          "normalizedValue": 0.024609263947251554
+        },
+        "Youtube登録者数": {
+          "value": 6060.0,
+          "normalizedValue": 0.004094594594594595
+        },
+        "Youtube最高再生数": {
+          "value": 3757624.0,
+          "normalizedValue": 0.2684266577466953
+        },
+        "Twitterフォロワー数": {
+          "value": 28000.0,
+          "normalizedValue": 0.024411508282476024
+        },
+        "Twitterツイート数": {
+          "value": 12000.0,
+          "normalizedValue": 0.19047619047619047
+        },
+        "Twitter開始年月": {
+          "value": 201008.0,
+          "normalizedValue": 0.9950694045662463
+        },
+        "外国人訪問率": {
+          "value": 0.09884366,
+          "normalizedValue": 0.0005747874572694902
+        },
+        "芸能人": { "value": 8.0, "normalizedValue": 0.055944055944055944 },
+        "経度": 133.3152,
+        "緯度": 33.5
+      },
+      {
+        "都道府県名": "福岡県",
+        "米": { "value": 158900.0, "normalizedValue": 0.2453309499505097 },
+        "牛乳": { "value": 77042.0, "normalizedValue": 0.01816178641151312 },
+        "肉用牛": { "value": 14300.0, "normalizedValue": 0.04250738188976378 },
+        "豚": { "value": 82300.0, "normalizedValue": 0.0635776117165245 },
+        "鶏卵": { "value": 3298.0, "normalizedValue": 0.21001814411612235 },
+        "ブロイラー": {
+          "value": 1263.0,
+          "normalizedValue": 0.044730131746706335
+        },
+        "トマト": { "value": 19100.0, "normalizedValue": 0.1431784107946027 },
+        "乳牛": { "value": 7810.0, "normalizedValue": 0.023403737293809727 },
+        "いちご": { "value": 16700.0, "normalizedValue": 0.65748031496063 },
+        "火力": { "value": 22.0, "normalizedValue": 0.6285714285714286 },
+        "水力": { "value": 8.0, "normalizedValue": 0.04678362573099415 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 121.0, "normalizedValue": 0.5529953917050692 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 19730696.0,
+          "normalizedValue": 0.2935750735373666
+        },
+        "Youtube登録者数": {
+          "value": 4270.0,
+          "normalizedValue": 0.0028851351351351353
+        },
+        "Youtube最高再生数": {
+          "value": 83316.0,
+          "normalizedValue": 0.005471569416149085
+        },
+        "Twitterフォロワー数": {
+          "value": 31000.0,
+          "normalizedValue": 0.02702702702702703
+        },
+        "Twitterツイート数": {
+          "value": 7227.0,
+          "normalizedValue": 0.11471428571428571
+        },
+        "Twitter開始年月": {
+          "value": 201405.0,
+          "normalizedValue": 0.9970347121839171
+        },
+        "外国人訪問率": {
+          "value": 4.64429821,
+          "normalizedValue": 0.26369693010464407
+        },
+        "芸能人": { "value": 6.0, "normalizedValue": 0.04195804195804196 },
+        "経度": 130.6,
+        "緯度": 33.6
+      },
+      {
+        "都道府県名": "佐賀県",
+        "米": { "value": 71800.0, "normalizedValue": 0.11041372035422356 },
+        "牛乳": { "value": 14715.0, "normalizedValue": 0.0024229351327614414 },
+        "肉用牛": { "value": 51300.0, "normalizedValue": 0.1563115157480315 },
+        "豚": { "value": 81600.0, "normalizedValue": 0.0630252432394044 },
+        "鶏卵": { "value": 484.0, "normalizedValue": 0.027669777086573356 },
+        "ブロイラー": { "value": 3935.0, "normalizedValue": 0.1393610993058507 },
+        "トマト": { "value": 3410.0, "normalizedValue": 0.02556221889055472 },
+        "乳牛": { "value": 1060.0, "normalizedValue": 0.002860794935784284 },
+        "いちご": { "value": 8170.0, "normalizedValue": 0.3216535433070866 },
+        "火力": { "value": 2.0, "normalizedValue": 0.05714285714285714 },
+        "水力": { "value": 14.0, "normalizedValue": 0.08187134502923976 },
+        "風力": { "value": 2.0, "normalizedValue": 0.03571428571428571 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 34.0, "normalizedValue": 0.15207373271889402 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 610003.0,
+          "normalizedValue": 0.009076297946256648
+        },
+        "Youtube登録者数": {
+          "value": 3500.0,
+          "normalizedValue": 0.002364864864864865
+        },
+        "Youtube最高再生数": {
+          "value": 135088.0,
+          "normalizedValue": 0.009176678196645721
+        },
+        "Twitterフォロワー数": {
+          "value": 13000.0,
+          "normalizedValue": 0.011333914559721011
+        },
+        "Twitterツイート数": {
+          "value": 7986.0,
+          "normalizedValue": 0.12676190476190477
+        },
+        "Twitter開始年月": {
+          "value": 201009.0,
+          "normalizedValue": 0.995074354963268
+        },
+        "外国人訪問率": {
+          "value": 0.4179417,
+          "normalizedValue": 0.019046374638660987
+        },
+        "芸能人": { "value": 1.0, "normalizedValue": 0.006993006993006993 },
+        "経度": 130.2,
+        "緯度": 33.3
+      },
+      {
+        "都道府県名": "長崎県",
+        "米": { "value": 51900.0, "normalizedValue": 0.07958877352338437 },
+        "牛乳": { "value": 48279.0, "normalizedValue": 0.010898536466373222 },
+        "肉用牛": { "value": 71800.0, "normalizedValue": 0.21936515748031496 },
+        "豚": { "value": 201100.0, "normalizedValue": 0.1573224332620515 },
+        "鶏卵": { "value": 1753.0, "normalizedValue": 0.10990150336962157 },
+        "ブロイラー": { "value": 3011.0, "normalizedValue": 0.10663691741039807 },
+        "トマト": { "value": 12600.0, "normalizedValue": 0.0944527736131934 },
+        "乳牛": { "value": 12300.0, "normalizedValue": 0.03706859821048147 },
+        "いちご": { "value": 11100.0, "normalizedValue": 0.43700787401574803 },
+        "火力": { "value": 10.0, "normalizedValue": 0.2857142857142857 },
+        "水力": { "value": 6.0, "normalizedValue": 0.03508771929824561 },
+        "風力": { "value": 22.0, "normalizedValue": 0.39285714285714285 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 67.0, "normalizedValue": 0.30414746543778803 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 3736923.0,
+          "normalizedValue": 0.05560206515413732
+        },
+        "Youtube登録者数": {
+          "value": 1660.0,
+          "normalizedValue": 0.0011216216216216215
+        },
+        "Youtube最高再生数": {
+          "value": 1152330.0,
+          "normalizedValue": 0.08197649790787882
+        },
+        "Twitterフォロワー数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitterツイート数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitter開始年月": { "value": 0.0, "normalizedValue": 0.0 },
+        "外国人訪問率": {
+          "value": 0.67340067,
+          "normalizedValue": 0.03383409516374938
+        },
+        "芸能人": { "value": 3.0, "normalizedValue": 0.02097902097902098 },
+        "経度": 129.8,
+        "緯度": 32.7
+      },
+      {
+        "都道府県名": "熊本県",
+        "米": { "value": 160800.0, "normalizedValue": 0.24827403532631848 },
+        "牛乳": { "value": 251133.0, "normalizedValue": 0.062123349746330436 },
+        "肉用牛": { "value": 104600.0, "normalizedValue": 0.3202509842519685 },
+        "豚": { "value": 277100.0, "normalizedValue": 0.21729386792080616 },
+        "鶏卵": { "value": 1945.0, "normalizedValue": 0.12234318299637117 },
+        "ブロイラー": { "value": 3235.0, "normalizedValue": 0.11457005241535628 },
+        "トマト": { "value": 133400.0, "normalizedValue": 1.0 },
+        "乳牛": { "value": 27600.0, "normalizedValue": 0.08363260088867247 },
+        "いちご": { "value": 12500.0, "normalizedValue": 0.4921259842519685 },
+        "火力": { "value": 5.0, "normalizedValue": 0.14285714285714285 },
+        "水力": { "value": 49.0, "normalizedValue": 0.28654970760233917 },
+        "風力": { "value": 2.0, "normalizedValue": 0.03571428571428571 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 81.0, "normalizedValue": 0.3686635944700461 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 3368295.0,
+          "normalizedValue": 0.05011721088402276
+        },
+        "Youtube登録者数": {
+          "value": 1830.0,
+          "normalizedValue": 0.0012364864864864865
+        },
+        "Youtube最高再生数": {
+          "value": 98602.0,
+          "normalizedValue": 0.006565525469974928
+        },
+        "Twitterフォロワー数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitterツイート数": { "value": 0.0, "normalizedValue": 0.0 },
+        "Twitter開始年月": { "value": 0.0, "normalizedValue": 0.0 },
+        "外国人訪問率": {
+          "value": 1.9439254,
+          "normalizedValue": 0.10738079672389964
+        },
+        "芸能人": { "value": 0.0, "normalizedValue": 0.0 },
+        "経度": 130.7,
+        "緯度": 32.7
+      },
+      {
+        "都道府県名": "大分県",
+        "米": { "value": 89600.0, "normalizedValue": 0.13798578334864253 },
+        "牛乳": { "value": 70632.0, "normalizedValue": 0.01654312938170584 },
+        "肉用牛": { "value": 40000.0, "normalizedValue": 0.12155511811023623 },
+        "豚": { "value": 132300.0, "normalizedValue": 0.1030325029393894 },
+        "鶏卵": { "value": 1268.0, "normalizedValue": 0.07847330222913426 },
+        "ブロイラー": { "value": 2471.0, "normalizedValue": 0.08751239552344525 },
+        "トマト": { "value": 11100.0, "normalizedValue": 0.08320839580209895 },
+        "乳牛": { "value": 11200.0, "normalizedValue": 0.03372085945584028 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 9.0, "normalizedValue": 0.2571428571428571 },
+        "水力": { "value": 38.0, "normalizedValue": 0.2222222222222222 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 53.0, "normalizedValue": 0.23963133640552994 },
+        "地熱": { "value": 6.0, "normalizedValue": 1.0 },
+        "国内線乗降客数": {
+          "value": 1876663.0,
+          "normalizedValue": 0.02792306354676262
+        },
+        "Youtube登録者数": { "value": 4810.0, "normalizedValue": 0.00325 },
+        "Youtube最高再生数": {
+          "value": 2440000.0,
+          "normalizedValue": 0.17412973563062673
+        },
+        "Twitterフォロワー数": {
+          "value": 38000.0,
+          "normalizedValue": 0.03312990409764603
+        },
+        "Twitterツイート数": {
+          "value": 19000.0,
+          "normalizedValue": 0.30158730158730157
+        },
+        "Twitter開始年月": {
+          "value": 201002.0,
+          "normalizedValue": 0.9950397021841152
+        },
+        "外国人訪問率": {
+          "value": 0.21709499,
+          "normalizedValue": 0.007419986980934678
+        },
+        "芸能人": { "value": 4.0, "normalizedValue": 0.027972027972027972 },
+        "経度": 131.3645,
+        "緯度": 33.1417
+      },
+      {
+        "都道府県名": "宮崎県",
+        "米": { "value": 74900.0, "normalizedValue": 0.11521559649370103 },
+        "牛乳": { "value": 79388.0, "normalizedValue": 0.018754199733186736 },
+        "肉用牛": { "value": 222100.0, "normalizedValue": 0.6816560039370079 },
+        "豚": { "value": 835700.0, "normalizedValue": 0.6580839126626528 },
+        "鶏卵": { "value": 4562.0, "normalizedValue": 0.2919258683255573 },
+        "ブロイラー": { "value": 28236.0, "normalizedValue": 1.0 },
+        "トマト": { "value": 19300.0, "normalizedValue": 0.1446776611694153 },
+        "乳牛": { "value": 22100.0, "normalizedValue": 0.06689390711546656 },
+        "いちご": { "value": 2650.0, "normalizedValue": 0.10433070866141732 },
+        "火力": { "value": 4.0, "normalizedValue": 0.11428571428571428 },
+        "水力": { "value": 48.0, "normalizedValue": 0.2807017543859649 },
+        "風力": { "value": 1.0, "normalizedValue": 0.017857142857142856 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 35.0, "normalizedValue": 0.15668202764976957 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 3312416.0,
+          "normalizedValue": 0.049285781443612016
+        },
+        "Youtube登録者数": {
+          "value": 1380.0,
+          "normalizedValue": 0.0009324324324324324
+        },
+        "Youtube最高再生数": {
+          "value": 501218.0,
+          "normalizedValue": 0.03537909413196276
+        },
+        "Twitterフォロワー数": {
+          "value": 16000.0,
+          "normalizedValue": 0.013949433304272014
+        },
+        "Twitterツイート数": {
+          "value": 7643.0,
+          "normalizedValue": 0.12131746031746032
+        },
+        "Twitter開始年月": {
+          "value": 201003.0,
+          "normalizedValue": 0.9950446525811371
+        },
+        "外国人訪問率": {
+          "value": 0.21709499,
+          "normalizedValue": 0.007419986980934678
+        },
+        "芸能人": { "value": 4.0, "normalizedValue": 0.027972027972027972 },
+        "経度": 131.4,
+        "緯度": 32.1
+      },
+      {
+        "都道府県名": "鹿児島県",
+        "米": { "value": 88500.0, "normalizedValue": 0.13628189181527958 },
+        "牛乳": { "value": 85414.0, "normalizedValue": 0.020275888853564062 },
+        "肉用牛": { "value": 325600.0, "normalizedValue": 1.0 },
+        "豚": { "value": 1269000.0, "normalizedValue": 1.0 },
+        "鶏卵": { "value": 11941.0, "normalizedValue": 0.7700881285640228 },
+        "ブロイラー": { "value": 27970.0, "normalizedValue": 0.9905794021816121 },
+        "トマト": { "value": 5300.0, "normalizedValue": 0.03973013493253373 },
+        "乳牛": { "value": 15400.0, "normalizedValue": 0.04650313470083389 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 30.0, "normalizedValue": 0.8571428571428571 },
+        "水力": { "value": 35.0, "normalizedValue": 0.2046783625730994 },
+        "風力": { "value": 18.0, "normalizedValue": 0.32142857142857145 },
+        "原子力": { "value": 1.0, "normalizedValue": 0.25 },
+        "太陽光": { "value": 143.0, "normalizedValue": 0.6543778801843319 },
+        "地熱": { "value": 3.0, "normalizedValue": 0.5 },
+        "国内線乗降客数": {
+          "value": 7279549.0,
+          "normalizedValue": 0.10831316508013016
+        },
+        "Youtube登録者数": {
+          "value": 2810.0,
+          "normalizedValue": 0.0018986486486486486
+        },
+        "Youtube最高再生数": {
+          "value": 200728.0,
+          "normalizedValue": 0.013874262612001498
+        },
+        "Twitterフォロワー数": {
+          "value": 19000.0,
+          "normalizedValue": 0.016564952048823016
+        },
+        "Twitterツイート数": {
+          "value": 3195.0,
+          "normalizedValue": 0.05071428571428571
+        },
+        "Twitter開始年月": {
+          "value": 201106.0,
+          "normalizedValue": 0.9955545434743867
+        },
+        "外国人訪問率": {
+          "value": 0.39718002,
+          "normalizedValue": 0.0178445459400198
+        },
+        "芸能人": { "value": 9.0, "normalizedValue": 0.06293706293706294 },
+        "経度": 130.5,
+        "緯度": 31.8
+      },
+      {
+        "都道府県名": "沖縄県",
+        "米": { "value": 2000.0, "normalizedValue": 0.0022940576008277816 },
+        "牛乳": { "value": 23846.0, "normalizedValue": 0.004728700708295024 },
+        "肉用牛": { "value": 79100.0, "normalizedValue": 0.24181840551181102 },
+        "豚": { "value": 209800.0, "normalizedValue": 0.16418758433483 },
+        "鶏卵": { "value": 380.0, "normalizedValue": 0.020930533955417316 },
+        "ブロイラー": { "value": 707.0, "normalizedValue": 0.025038957359399348 },
+        "トマト": { "value": 3280.0, "normalizedValue": 0.024587706146926538 },
+        "乳牛": { "value": 590.0, "normalizedValue": 0.001430397467892142 },
+        "いちご": { "value": 0.0, "normalizedValue": 0.0 },
+        "火力": { "value": 26.0, "normalizedValue": 0.7428571428571429 },
+        "水力": { "value": 0.0, "normalizedValue": 0.0 },
+        "風力": { "value": 13.0, "normalizedValue": 0.23214285714285715 },
+        "原子力": { "value": 0.0, "normalizedValue": 0.0 },
+        "太陽光": { "value": 1.0, "normalizedValue": 0.0 },
+        "地熱": { "value": 0.0, "normalizedValue": 0.0 },
+        "国内線乗降客数": {
+          "value": 22977516.0,
+          "normalizedValue": 0.3418848452890875
+        },
+        "Youtube登録者数": {
+          "value": 6600.0,
+          "normalizedValue": 0.00445945945945946
+        },
+        "Youtube最高再生数": {
+          "value": 1574317.0,
+          "normalizedValue": 0.11217636924673834
+        },
+        "Twitterフォロワー数": {
+          "value": 10000.0,
+          "normalizedValue": 0.008718395815170008
+        },
+        "Twitterツイート数": {
+          "value": 1740.0,
+          "normalizedValue": 0.02761904761904762
+        },
+        "Twitter開始年月": {
+          "value": 201706.0,
+          "normalizedValue": 0.9985247816874914
+        },
+        "外国人訪問率": {
+          "value": 0.58493785,
+          "normalizedValue": 0.02871325928540382
+        },
+        "芸能人": { "value": 12.0, "normalizedValue": 0.08391608391608392 },
+        "経度": 127.8,
+        "緯度": 26.4
+      }
+    ]
+}
