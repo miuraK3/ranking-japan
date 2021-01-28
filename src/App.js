@@ -42,7 +42,6 @@ const App = () => {
   return (
     <Router>
       <Hero />
-      <div className="notification is-primary">
         <div className="tile is-ancestor">
           <div className="tile is-vertical">
             <div className="tile is-parent">
@@ -81,7 +80,6 @@ const App = () => {
             </div>
           </div>
         </div>
-      </div>
       <AboutData />
       <Footer />
     </Router>

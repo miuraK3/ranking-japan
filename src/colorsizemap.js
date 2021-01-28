@@ -41,25 +41,25 @@ const ColorSizeAndMap = ({ features }) => {
       </g>
       {/*〜日本地図の描画について*/}
       {/*印の大きさについて*/}
-      <g transform="translate(width/2,height)">
+      <g>
           <text x={width - 250} y={height - 500} fontSize="20">円の大きさ・色について</text>
 
-          <circle cx={width - 200} cy={height - 450} r={radius - 5} fill="#ff0000" opacity="0.5"/>
+          <circle cx={width - 200} cy={height - 450} r={radius - 5} fill="#ff0000" opacity="0.7"/>
           <text x={width - 200 + radius} y={height - 443} fontSize="20">1位</text>
 
-          <circle cx={width - 200} cy={height - 400} r={radius - 5} fill="#007fff" opacity="0.5"/>
+          <circle cx={width - 200} cy={height - 400} r={radius - 5} fill="#007fff" opacity="0.7"/>
           <text x={width - 200 + radius} y={height - 393} fontSize="20">2位</text>
 
-          <circle cx={width - 200} cy={height - 350} r={radius - 5} fill="#00ff00" opacity="0.5"/>
+          <circle cx={width - 200} cy={height - 350} r={radius - 5} fill="#00ff00" opacity="0.7"/>
           <text x={width - 200 + radius} y={height - 343} fontSize="20">3位</text>
 
           <circle cx={width - 200} cy={height - 300} r={radius - 10} fill="#ffff00" opacity="0.7"/>
           <text x={width - 195 + radius - 10} y={height - 294} fontSize="20">4~10位</text>
 
-          <circle cx={width - 200} cy={height - 250} r={radius - 15} fill="#ff7f00" opacity="0.5"/>
+          <circle cx={width - 200} cy={height - 250} r={radius - 15} fill="#ff7f00" opacity="0.7"/>
           <text x={width - 195 + radius - 15} y={height - 243} fontSize="20">11~20位</text>
 
-          <circle cx={width - 200} cy={height - 200} r={radius - 18} fill="black" opacity="0.5"/>
+          <circle cx={width - 200} cy={height - 200} r={radius - 18} fill="black" opacity="0.7"/>
           <text x={width - 195 + radius - 18} y={height - 193} fontSize="20">21~30位</text>
 
           <circle cx={width - 200} cy={height - 150} r={radius - 20} fill="#7fff00" opacity="0.7"/>

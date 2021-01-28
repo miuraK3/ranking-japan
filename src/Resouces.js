@@ -138,7 +138,7 @@ const ChoroplethMap = ({ features }) => {
                 color = "#7f00ff";
               }
               return (
-                <circle cx={x} cy={y} r={r} fill={color} opacity="0.5" key={item["都道府県名"]}/>
+                <circle cx={x} cy={y} r={r} fill={color} opacity="0.7" key={item["都道府県名"]}/>
               );
             })}
         </g>
